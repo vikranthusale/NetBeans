@@ -94,9 +94,6 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Add  New"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
@@ -128,7 +125,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="301" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="261" max="32767" attributes="0"/>
+                  <EmptySpace pref="302" max="32767" attributes="0"/>
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
@@ -159,7 +156,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="List  Of  Raw Material &amp;  Consumable"/>
+            <Property name="text" type="java.lang.String" value="List  Of  Customer &amp;  Suppliers"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
