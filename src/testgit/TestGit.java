@@ -18,7 +18,7 @@ public class TestGit {
     public static void main(String[] args) 
     {
         // TODO code application logic here
-        System.out.println("Hello Git Things have been TTTTTTTTTT changed ........");
+        System.out.println("Hello Git Things have been  changed ........");
     }
     
 }
