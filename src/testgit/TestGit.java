@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package testgit;
 
 /**
@@ -17,7 +18,7 @@ public class TestGit {
     public static void main(String[] args) 
     {
         // TODO code application logic here
-        System.out.println("Hello Git Things have beenCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC changed ........");
+        System.out.println("Hello Git Things have been TTTTTTTTTT changed ........");
     }
     
 }
