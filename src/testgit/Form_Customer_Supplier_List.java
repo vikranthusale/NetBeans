@@ -57,6 +57,11 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
         jButton2.setText("Print");
 
         jButton4.setText("Exit");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -128,17 +133,19 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jScrollPane3.setPreferredSize(new java.awt.Dimension(600, 402));
+
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Category", "Name Of Company", "Company representative1", "Designation1", "Mobile No1", "Company representative1", "Designation2", "Mobile No2", "Factory Address", "office Address", "Telephone No.", "Fax No.", "Email Id", "Web Site", "Vat Tin No.", "CST  Tin  No.", "ECC  No.", "Vendor/Supplier code assigned", "Service Category", "Opening Bal", "Date Of entry", "Actual  Date Of entry", "Actual Time", "User"
             }
         ));
+        jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -149,7 +156,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -160,7 +167,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addContainerGap(76, Short.MAX_VALUE))
         );
 
         pack();
@@ -170,7 +177,13 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         new Form_Customer_Supplier().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -217,7 +230,6 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTable jTable2;
     // End of variables declaration//GEN-END:variables

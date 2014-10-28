@@ -40,7 +40,7 @@
               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jScrollPane3" min="-2" pref="359" max="-2" attributes="0"/>
-              <EmptySpace pref="28" max="32767" attributes="0"/>
+              <EmptySpace pref="76" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -112,6 +112,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Exit"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -187,18 +190,49 @@
       </SubComponents>
     </Container>
     <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 402]"/>
+        </Property>
+      </Properties>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
         <Component class="javax.swing.JTable" name="jTable2">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="4" rowCount="4">
-                <Column editable="true" title="Title 1" type="java.lang.Object"/>
-                <Column editable="true" title="Title 2" type="java.lang.Object"/>
-                <Column editable="true" title="Title 3" type="java.lang.Object"/>
-                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              <Table columnCount="24" rowCount="2">
+                <Column editable="true" title="Category" type="java.lang.Object"/>
+                <Column editable="true" title="Name Of Company" type="java.lang.Object"/>
+                <Column editable="true" title="Company representative1" type="java.lang.Object"/>
+                <Column editable="true" title="Designation1" type="java.lang.Object"/>
+                <Column editable="true" title="Mobile No1" type="java.lang.Object"/>
+                <Column editable="true" title="Company representative1" type="java.lang.Object"/>
+                <Column editable="true" title="Designation2" type="java.lang.Object"/>
+                <Column editable="true" title="Mobile No2" type="java.lang.Object"/>
+                <Column editable="true" title="Factory Address" type="java.lang.Object"/>
+                <Column editable="true" title="office Address" type="java.lang.Object"/>
+                <Column editable="true" title="Telephone No." type="java.lang.Object"/>
+                <Column editable="true" title="Fax No." type="java.lang.Object"/>
+                <Column editable="true" title="Email Id" type="java.lang.Object"/>
+                <Column editable="true" title="Web Site" type="java.lang.Object"/>
+                <Column editable="true" title="Vat Tin No." type="java.lang.Object"/>
+                <Column editable="true" title="CST  Tin  No." type="java.lang.Object"/>
+                <Column editable="true" title="ECC  No." type="java.lang.Object"/>
+                <Column editable="true" title="Vendor/Supplier code assigned" type="java.lang.Object"/>
+                <Column editable="true" title="Service Category" type="java.lang.Object"/>
+                <Column editable="true" title="Opening Bal" type="java.lang.Object"/>
+                <Column editable="true" title="Date Of entry" type="java.lang.Object"/>
+                <Column editable="true" title="Actual  Date Of entry" type="java.lang.Object"/>
+                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
+                <Column editable="true" title="User" type="java.lang.Object"/>
               </Table>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 405]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1800, 400]"/>
             </Property>
           </Properties>
         </Component>
