@@ -5,6 +5,9 @@
  */
 package testgit;
 
+import java.awt.Toolkit;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -15,7 +18,9 @@ public class Form_Finished_Product extends javax.swing.JFrame {
      * Creates new form Form_Finished_Product
      */
     public Form_Finished_Product() {
+       // new Form_Finished_Product().setExtendedState(JFrame.MAXIMIZED_BOTH);
         initComponents();
+       // new Form_Finished_Product().setSize(Toolkit.getDefaultToolkit().getScreenSize().width,Toolkit.getDefaultToolkit().getScreenSize().height);
     }
 
     /**
@@ -67,7 +72,7 @@ public class Form_Finished_Product extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -176,6 +181,11 @@ public class Form_Finished_Product extends javax.swing.JFrame {
         );
 
         jButton1.setText("Back  To  List");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Delete");
 
@@ -186,11 +196,11 @@ public class Form_Finished_Product extends javax.swing.JFrame {
         jButton5.setText("Print");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "No." }));
-        jComboBox2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jComboBox2.setBorder(null);
 
-        jComboBox3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jComboBox3.setBorder(null);
 
-        jComboBox4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jComboBox4.setBorder(null);
 
         jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
@@ -400,6 +410,11 @@ public class Form_Finished_Product extends javax.swing.JFrame {
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        new Form_Finished_Product_List().setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
