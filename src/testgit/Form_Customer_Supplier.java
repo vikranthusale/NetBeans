@@ -22,6 +22,7 @@ public class Form_Customer_Supplier extends javax.swing.JFrame {
         
         initComponents();
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        // this.setExtendedState(JFrame.MAXIMIZED_HORIZ);
         //Set JFrame size to full screen size follow current screen size  
  //new Form_Customer_Supplier().setSize(Toolkit.getDefaultToolkit().getScreenSize().width,Toolkit.getDefaultToolkit().getScreenSize().height);  
 
