@@ -184,10 +184,20 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
         jMenuItem13.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jMenuItem13.setText("Required  Skills");
+        jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem13ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem13);
 
         jMenuItem14.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jMenuItem14.setText("Resource  Planning");
+        jMenuItem14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem14ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem14);
 
         jMenuItem15.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
@@ -292,6 +302,16 @@ public class Form_Dashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new Form_Tooling_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem9ActionPerformed
+
+    private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
+        // TODO add your handling code here:
+        new Form_Required_Skill_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem13ActionPerformed
+
+    private void jMenuItem14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem14ActionPerformed
+        // TODO add your handling code here:
+        new Form_Resource_Planning_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem14ActionPerformed
 
    
     

@@ -5,6 +5,8 @@
  */
 package testgit;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,8 @@ public class Form_Resource_Planning_List extends javax.swing.JFrame {
      */
     public Form_Resource_Planning_List() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+
     }
 
     /**
