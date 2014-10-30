@@ -1,5 +1,7 @@
 package testgit;
 
+import javax.swing.JFrame;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,6 +20,8 @@ public class Form_Dashboard extends javax.swing.JFrame {
      */
     public Form_Dashboard() {
         initComponents();
+                 this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+
     }
 
     /**
@@ -135,7 +139,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-         new Form_Raw_Material_Supplier_List().setVisible(true);
+         new Form_Raw_Material_And_Consumables_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
