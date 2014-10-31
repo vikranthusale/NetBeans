@@ -21,6 +21,8 @@ public class Form_Monitoring_and_Measuring_Equipment extends javax.swing.JFrame 
         initComponents();
         
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setLayout(new GridBagLayout());
+                             this.add(jPanel2, new GridBagConstraints());
     }
 
     /**

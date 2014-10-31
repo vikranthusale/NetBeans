@@ -19,7 +19,8 @@ public class Form_Finished_Product_Customer_Wise extends javax.swing.JFrame {
     public Form_Finished_Product_Customer_Wise() {
         initComponents();
                  this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-
+this.setLayout(new GridBagLayout());
+                             this.add(jPanel5, new GridBagConstraints());
     }
 
     /**

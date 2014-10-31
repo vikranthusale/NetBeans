@@ -5,6 +5,8 @@
  */
 package testgit;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import javax.swing.JFrame;
 
 /**
@@ -19,7 +21,8 @@ public class Form_Processes extends javax.swing.JFrame {
     public Form_Processes() {
         initComponents();
                  this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-
+this.setLayout(new GridBagLayout());
+                             this.add(jPanel1, new GridBagConstraints());
     }
 
     /**

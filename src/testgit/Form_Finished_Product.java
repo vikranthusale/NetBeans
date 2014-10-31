@@ -5,6 +5,8 @@
  */
 package testgit;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.Toolkit;
 import javax.swing.JFrame;
 
@@ -19,9 +21,12 @@ public class Form_Finished_Product extends javax.swing.JFrame {
      */
     public Form_Finished_Product() {
      //   new Form_Finished_Product().setExtendedState(JFrame.MAXIMIZED_BOTH);
-       this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+      // this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         initComponents();
-       // new Form_Finished_Product().setSize(Toolkit.getDefaultToolkit().getScreenSize().width,Toolkit.getDefaultToolkit().getScreenSize().height);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+     this.setLayout(new GridBagLayout());
+                             this.add(jPanel2, new GridBagConstraints());
+        // new Form_Finished_Product().setSize(Toolkit.getDefaultToolkit().getScreenSize().width,Toolkit.getDefaultToolkit().getScreenSize().height);
     }
 
     /**

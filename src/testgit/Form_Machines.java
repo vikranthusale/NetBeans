@@ -20,6 +20,8 @@ public class Form_Machines extends javax.swing.JFrame {
     public Form_Machines() {
         initComponents();
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+         this.setLayout(new GridBagLayout());
+                             this.add(jPanel6, new GridBagConstraints());
     }
 
     /**

@@ -1,5 +1,7 @@
 package testgit;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import javax.swing.JFrame;
 
 /*
@@ -20,7 +22,8 @@ public class Form_Raw_Material_And_Consumable extends javax.swing.JFrame {
     public Form_Raw_Material_And_Consumable() {
         initComponents();
                  this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-
+this.setLayout(new GridBagLayout());
+                             this.add(jPanel2, new GridBagConstraints());
     }
     /**
      * This method is called from within the constructor to initialize the form.

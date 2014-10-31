@@ -6,6 +6,8 @@
 
 package testgit;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import javax.swing.JFrame;
 
 /**
@@ -22,7 +24,8 @@ public class Form_Raw_Material_Supplier_Wise extends javax.swing.JFrame {
     public Form_Raw_Material_Supplier_Wise() {
         initComponents();
                  this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-
+ this.setLayout(new GridBagLayout());
+                             this.add(jPanel5, new GridBagConstraints());
     }
 
     /**
