@@ -168,7 +168,7 @@
                                           <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
                                           <Component id="jButton4" min="-2" pref="100" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jButton1" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="jButton1" min="-2" pref="110" max="-2" attributes="0"/>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Component id="jButton5" min="-2" pref="100" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
