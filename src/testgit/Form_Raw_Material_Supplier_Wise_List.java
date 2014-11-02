@@ -48,13 +48,13 @@ public class Form_Raw_Material_Supplier_Wise_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Raw Material Description", "Technical Specification", "Unit", "Supplier Name", "Date Of Entry", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
         jScrollPane3.setViewportView(jTable2);

@@ -118,7 +118,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(411, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(111, 111, 111)
                 .addComponent(jLabel2)
@@ -137,7 +137,9 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
-        jScrollPane3.setPreferredSize(new java.awt.Dimension(600, 402));
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        jScrollPane3.setPreferredSize(new java.awt.Dimension(100, 100));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -148,9 +150,65 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 "Category", "Name Of Company", "Company representative1", "Designation1", "Mobile No1", "Company representative1", "Designation2", "Mobile No2", "Factory Address", "office Address", "Telephone No.", "Fax No.", "Email Id", "Web Site", "Vat Tin No.", "CST  Tin  No.", "ECC  No.", "Vendor/Supplier code assigned", "Service Category", "Opening Bal", "Date Of entry", "Actual  Date Of entry", "Actual Time", "User"
             }
         ));
-        jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable2.setMinimumSize(new java.awt.Dimension(900, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(2000, 400));
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(70);
+            jTable2.getColumnModel().getColumn(0).setPreferredWidth(70);
+            jTable2.getColumnModel().getColumn(0).setMaxWidth(70);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(1).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(1).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(160);
+            jTable2.getColumnModel().getColumn(2).setPreferredWidth(160);
+            jTable2.getColumnModel().getColumn(2).setMaxWidth(160);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(90);
+            jTable2.getColumnModel().getColumn(3).setPreferredWidth(90);
+            jTable2.getColumnModel().getColumn(3).setMaxWidth(90);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(90);
+            jTable2.getColumnModel().getColumn(4).setPreferredWidth(90);
+            jTable2.getColumnModel().getColumn(4).setMaxWidth(90);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(160);
+            jTable2.getColumnModel().getColumn(5).setPreferredWidth(160);
+            jTable2.getColumnModel().getColumn(5).setMaxWidth(160);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(6).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(6).setMaxWidth(100);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(7).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(7).setMaxWidth(100);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(200);
+            jTable2.getColumnModel().getColumn(8).setPreferredWidth(200);
+            jTable2.getColumnModel().getColumn(8).setMaxWidth(200);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(200);
+            jTable2.getColumnModel().getColumn(9).setPreferredWidth(200);
+            jTable2.getColumnModel().getColumn(9).setMaxWidth(200);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(200);
+            jTable2.getColumnModel().getColumn(10).setPreferredWidth(200);
+            jTable2.getColumnModel().getColumn(10).setMaxWidth(200);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(11).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(11).setMaxWidth(100);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(12).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(12).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(130);
+            jTable2.getColumnModel().getColumn(13).setPreferredWidth(130);
+            jTable2.getColumnModel().getColumn(13).setMaxWidth(130);
+            jTable2.getColumnModel().getColumn(14).setPreferredWidth(300);
+            jTable2.getColumnModel().getColumn(15).setPreferredWidth(400);
+            jTable2.getColumnModel().getColumn(16).setResizable(false);
+            jTable2.getColumnModel().getColumn(16).setPreferredWidth(400);
+            jTable2.getColumnModel().getColumn(17).setPreferredWidth(600);
+            jTable2.getColumnModel().getColumn(18).setPreferredWidth(600);
+            jTable2.getColumnModel().getColumn(19).setPreferredWidth(600);
+            jTable2.getColumnModel().getColumn(20).setPreferredWidth(500);
+            jTable2.getColumnModel().getColumn(21).setResizable(false);
+            jTable2.getColumnModel().getColumn(21).setPreferredWidth(600);
+            jTable2.getColumnModel().getColumn(22).setPreferredWidth(500);
+            jTable2.getColumnModel().getColumn(23).setPreferredWidth(400);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -158,10 +216,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 1000, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -169,9 +224,9 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

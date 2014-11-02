@@ -135,13 +135,13 @@ public class Form_Tooling_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Description Of Tool", "Type Of Tooling", "Cost(Rs.)", "Date Of Purchasing", "Whether Of Supplied By Customer", "Tool No.", "Reason Of Issuing Tool", "Action Taken On Previous Issued Tool ", "Issued By", "Issued To", "Perishable Tool?", "Tool Broken?", "Broken Date", "Date Of Entry", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
         jScrollPane3.setViewportView(jTable2);
