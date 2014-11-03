@@ -12,12 +12,12 @@ import javax.swing.JFrame;
  *
  * @author Kamod
  */
-public class Form_Review_Enquires_List extends javax.swing.JFrame {
+public class Form_Review_Customer_Order_List extends javax.swing.JFrame {
 
     /**
-     * Creates new form Form_Review_Enquires_List
+     * Creates new form Form_Review_Customer_Purchase_Order
      */
-    public Form_Review_Enquires_List() {
+    public Form_Review_Customer_Order_List() {
         initComponents();
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
@@ -97,7 +97,7 @@ public class Form_Review_Enquires_List extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("List  Of  Review  of  Enquires");
+        jLabel1.setText("List  Of  Review  of  Customer Orders");
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -138,11 +138,11 @@ public class Form_Review_Enquires_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Enquiry Sr.No.", "Cust. Ref. No.", "Enquiry  date", "Customer  Name", "Product  Name", "Product   Code", "Technical Specifications", "Drawing  No.", "Rev. No.", "Material", "Tentative order  Qty.", "Process  to be carried out", "Sample  Submission  Date", "Quotation  Submission  Date", "VAT(%)", "Transport  Mode", "Fright  Payment", "Actual  Date of entry", "Actual  Time", "User"
+                " Sr.No.", "PO. No.", "Quotation Ref No.", "Oreder Date", "Customer  Name", "Product Name", "Order Type", "Product Code", "Drawing. No.", "Rev.No.", "Technical Specification", "Order Qty", "Order Rate Per Unit (Rs.)", "Amount (Rs.)", "Transporters  Mode", "Fright Payment", "Vat %", "Delivery Date", "Material", "Actual Date Of Entry", "Actual  Time", "User"
             }
         ));
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
@@ -157,7 +157,7 @@ public class Form_Review_Enquires_List extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 808, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 753, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -177,7 +177,7 @@ public class Form_Review_Enquires_List extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
 
-        new Form_Machines().setVisible(true);
+        new Form_Review_Customer_Purchase_Order().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -203,26 +203,25 @@ public class Form_Review_Enquires_List extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Review_Customer_Order_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Review_Customer_Order_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Review_Customer_Order_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Review_Customer_Order_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_Review_Enquires_List().setVisible(true);
+                new Form_Review_Customer_Order_List().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -230,7 +229,6 @@ public class Form_Review_Enquires_List extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane3;

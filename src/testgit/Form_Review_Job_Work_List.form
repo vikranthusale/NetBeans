@@ -27,7 +27,7 @@
           <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane3" pref="808" max="32767" attributes="0"/>
+              <Component id="jScrollPane3" pref="736" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -131,7 +131,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
@@ -141,18 +141,14 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -166,7 +162,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="List  Of  Review  of  Enquires"/>
+            <Property name="text" type="java.lang.String" value="List  Of  Review Of Job Work"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
@@ -205,27 +201,33 @@
         <Component class="javax.swing.JTable" name="jTable2">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="20" rowCount="2">
-                <Column editable="true" title="Enquiry Sr.No." type="java.lang.Object"/>
-                <Column editable="true" title="Cust. Ref. No." type="java.lang.Object"/>
-                <Column editable="true" title="Enquiry  date" type="java.lang.Object"/>
+              <Table columnCount="26" rowCount="2">
+                <Column editable="true" title=" Sr.No." type="java.lang.Object"/>
                 <Column editable="true" title="Customer  Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product  Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product   Code" type="java.lang.Object"/>
-                <Column editable="true" title="Technical Specifications" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing  No." type="java.lang.Object"/>
-                <Column editable="true" title="Rev. No." type="java.lang.Object"/>
-                <Column editable="true" title="Material" type="java.lang.Object"/>
-                <Column editable="true" title="Tentative order  Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Process  to be carried out" type="java.lang.Object"/>
-                <Column editable="true" title="Sample  Submission  Date" type="java.lang.Object"/>
-                <Column editable="true" title="Quotation  Submission  Date" type="java.lang.Object"/>
-                <Column editable="true" title="VAT(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Transport  Mode" type="java.lang.Object"/>
-                <Column editable="true" title="Fright  Payment" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Date of entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Customer &apos;PO&apos; No." type="java.lang.Object"/>
+                <Column editable="true" title="Customer &apos;PO&apos; Date" type="java.lang.Object"/>
+                <Column editable="true" title="Ex. Ch.(CENVAT) No." type="java.lang.Object"/>
+                <Column editable="true" title="Ex. Ch.(CENVAT) Date." type="java.lang.Object"/>
+                <Column editable="true" title="&apos;Production Order&apos; No" type="java.lang.Object"/>
+                <Column editable="true" title="&apos;Production Order&apos; Date" type="java.lang.Object"/>
+                <Column editable="true" title="Project No." type="java.lang.Object"/>
+                <Column editable="true" title="Product Name" type="java.lang.Object"/>
+                <Column editable="true" title="Product Code" type="java.lang.Object"/>
+                <Column editable="true" title="Drawing No." type="java.lang.Object"/>
+                <Column editable="true" title="Rev.No." type="java.lang.Object"/>
+                <Column editable="true" title="Customer Order Qty." type="java.lang.Object"/>
+                <Column editable="true" title="Challan Qty." type="java.lang.Object"/>
+                <Column editable="true" title="Actual Received Qty." type="java.lang.Object"/>
+                <Column editable="true" title="ok Qty." type="java.lang.Object"/>
+                <Column editable="true" title="Initial Rejected Qty." type="java.lang.Object"/>
+                <Column editable="true" title="Under Deviation Qty." type="java.lang.Object"/>
+                <Column editable="true" title="Rejected Qty." type="java.lang.Object"/>
+                <Column editable="true" title="U.D.&amp; Rejection Reason" type="java.lang.Object"/>
+                <Column editable="true" title="Final ok Qty." type="java.lang.Object"/>
+                <Column editable="true" title="Delivery date" type="java.lang.Object"/>
+                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object"/>
+                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
+                <Column editable="true" title="Title 26" type="java.lang.Object"/>
               </Table>
             </Property>
             <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
