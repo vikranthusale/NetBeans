@@ -3,27 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package testgit;
-
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import javax.swing.JFrame;
 
 /**
  *
- * @author Kamod
+ * @author Administrator
  */
-public class Form_Review_Enquires extends javax.swing.JFrame {
+public class Form_Quatation extends javax.swing.JFrame {
 
     /**
-     * Creates new form Form_Review_Enquires
+     * Creates new form Form_Quatation
      */
-    public Form_Review_Enquires() {
+    public Form_Quatation() {
         initComponents();
-        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-         this.setLayout(new GridBagLayout());
-                             this.add(jPanel1, new GridBagConstraints());
     }
 
     /**
@@ -89,7 +81,6 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(192, 192, 255));
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
@@ -97,29 +88,29 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Review  of  Enquires");
+        jLabel9.setText("Quatation");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addContainerGap(356, Short.MAX_VALUE)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(362, 362, 362)
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(584, 584, 584))
+                .addContainerGap(578, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addGap(0, 14, Short.MAX_VALUE)
-                .addComponent(jLabel9))
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addComponent(jLabel9)
+                .addGap(0, 14, Short.MAX_VALUE))
         );
 
         jPanel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jPanel2.setPreferredSize(new java.awt.Dimension(1400, 669));
 
         jLabel13.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel13.setText("Cust. Ref. No :");
+        jLabel13.setText("Quatation Sr No. :");
 
         jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
@@ -129,7 +120,7 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
         });
 
         jLabel14.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel14.setText("Enquiry Date :");
+        jLabel14.setText("Quatation Date :");
 
         jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -160,7 +151,7 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
         });
 
         jLabel19.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel19.setText("Product name :");
+        jLabel19.setText("Enquiry Reference No. :");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "-------------------/Please Select/----------------------" }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
@@ -282,16 +273,16 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
         );
 
         jLabel25.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel25.setText("Tentative order Qty :");
+        jLabel25.setText("Product Name :");
 
         jLabel26.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel26.setText("Process to be carried out :");
+        jLabel26.setText("Material :");
 
         jLabel27.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel27.setText("VAT :");
 
         jLabel28.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel28.setText("Sample submission date :");
+        jLabel28.setText("Tentative Order Date :");
 
         jLabel29.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel29.setText("Quotation submission date :");
@@ -551,8 +542,6 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
                 .addGap(25, 25, 25))
         );
 
-        jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton1, jButton2, jButton3, jComboBox1, jComboBox2, jComboBox3, jComboBox4, jComboBox5, jComboBox6, jTextField13, jTextField14, jTextField5, jTextField6});
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -563,7 +552,7 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                     .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 379, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -626,6 +615,10 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
@@ -640,10 +633,6 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -662,20 +651,20 @@ public class Form_Review_Enquires extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Quatation.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Quatation.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Quatation.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_Review_Enquires.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Quatation.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_Review_Enquires().setVisible(true);
+                new Form_Quatation().setVisible(true);
             }
         });
     }

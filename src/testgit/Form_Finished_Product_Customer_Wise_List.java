@@ -143,7 +143,34 @@ public class Form_Finished_Product_Customer_Wise_List extends javax.swing.JFrame
                 "Product Name", "Drawing No.", "Rev No.", "Customer Name", "Date Of Entry", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(0).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(0).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(1).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(1).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(2).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(2).setMaxWidth(100);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(3).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(3).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(4).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(4).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(5).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(5).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(120);
+            jTable2.getColumnModel().getColumn(6).setPreferredWidth(120);
+            jTable2.getColumnModel().getColumn(6).setMaxWidth(120);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(7).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(7).setMaxWidth(100);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -144,7 +144,61 @@ public class Form_Tooling_List extends javax.swing.JFrame {
                 "Description Of Tool", "Type Of Tooling", "Cost(Rs.)", "Date Of Purchasing", "Whether Of Supplied By Customer", "Tool No.", "Reason Of Issuing Tool", "Action Taken On Previous Issued Tool ", "Issued By", "Issued To", "Perishable Tool?", "Tool Broken?", "Broken Date", "Date Of Entry", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(0).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(0).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(1).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(1).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(2).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(2).setMaxWidth(100);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(3).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(3).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(200);
+            jTable2.getColumnModel().getColumn(4).setPreferredWidth(200);
+            jTable2.getColumnModel().getColumn(4).setMaxWidth(200);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(5).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(5).setMaxWidth(100);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(200);
+            jTable2.getColumnModel().getColumn(6).setPreferredWidth(200);
+            jTable2.getColumnModel().getColumn(6).setMaxWidth(200);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(200);
+            jTable2.getColumnModel().getColumn(7).setPreferredWidth(200);
+            jTable2.getColumnModel().getColumn(7).setMaxWidth(200);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(8).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(8).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(9).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(9).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(10).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(10).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(11).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(11).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(12).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(12).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(13).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(13).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(14).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(14).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(14).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(15).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(15).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(15).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(16).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(16).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(16).setMaxWidth(100);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
