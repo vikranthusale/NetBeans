@@ -795,7 +795,7 @@ public class Form_Quatation extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        new Form_Review_Enquires_List().setVisible(true);
+        new Form_Quatation_List().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 
