@@ -6,21 +6,17 @@
 
 package testgit;
 
-import javax.swing.JFrame;
-
 /**
  *
  * @author Kamod
  */
-public class Form_Customer_Supplier_List extends javax.swing.JFrame {
+public class Form_Customer_Satisfaction_List extends javax.swing.JFrame {
 
     /**
-     * Creates new form Form_Customer_Supplier_List
+     * Creates new form Form_Customer_Satisfaction_List
      */
-    public Form_Customer_Supplier_List() {
+    public Form_Customer_Satisfaction_List() {
         initComponents();
-                 this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-
     }
 
     /**
@@ -44,7 +40,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(203, 252, 225));
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -82,9 +78,6 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jButton1, jButton2, jButton3, jButton4});
-
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -97,13 +90,11 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton1, jButton3});
-
         jPanel2.setBackground(new java.awt.Color(141, 141, 155));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("List  Of  Customer &  Suppliers");
+        jLabel1.setText("List  Of  Customer Satisfaction");
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -144,11 +135,11 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Category", "Name Of Company", "Company representative1", "Designation1", "Mobile No1", "Company representative1", "Designation2", "Mobile No2", "Factory Address", "office Address", "Telephone No.", "Fax No.", "Email Id", "Web Site", "Vat Tin No.", "CST  Tin  No.", "ECC  No.", "Vendor/Supplier code assigned", "Service Category", "Opening Bal", "Date Of entry", "Actual  Date Of entry", "Actual Time", "User"
+                "Feedback Sr.No", "Customer Name", "Feedback for the Period(From month)", "Feedback for the Period(From year)", "Feedback  to  month", "Feedback  to  year", "Date of From receipts", "1. Products meet current Requirement & Expectation", "2. Products Performance/Functional Criteris.", "3.Products meet condition at the time of Delivery", "4. Delivery Performance against your Urgency", "5.Cost as compair to others", "6.Response to customer complaints/Concern", "7.Our response to your queries", "8.Technical support from our side to you", "Total", "Percentage(%)", "Action plan", "Action Plan", "Actual Date of Entry", "Actual Time", "User"
             }
         ));
         jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -156,80 +147,6 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
         jTable2.setPreferredSize(new java.awt.Dimension(2000, 400));
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
-        if (jTable2.getColumnModel().getColumnCount() > 0) {
-            jTable2.getColumnModel().getColumn(0).setMinWidth(70);
-            jTable2.getColumnModel().getColumn(0).setPreferredWidth(70);
-            jTable2.getColumnModel().getColumn(0).setMaxWidth(70);
-            jTable2.getColumnModel().getColumn(1).setMinWidth(120);
-            jTable2.getColumnModel().getColumn(1).setPreferredWidth(120);
-            jTable2.getColumnModel().getColumn(1).setMaxWidth(120);
-            jTable2.getColumnModel().getColumn(2).setMinWidth(160);
-            jTable2.getColumnModel().getColumn(2).setPreferredWidth(160);
-            jTable2.getColumnModel().getColumn(2).setMaxWidth(160);
-            jTable2.getColumnModel().getColumn(3).setMinWidth(90);
-            jTable2.getColumnModel().getColumn(3).setPreferredWidth(90);
-            jTable2.getColumnModel().getColumn(3).setMaxWidth(90);
-            jTable2.getColumnModel().getColumn(4).setMinWidth(90);
-            jTable2.getColumnModel().getColumn(4).setPreferredWidth(90);
-            jTable2.getColumnModel().getColumn(4).setMaxWidth(90);
-            jTable2.getColumnModel().getColumn(5).setMinWidth(160);
-            jTable2.getColumnModel().getColumn(5).setPreferredWidth(160);
-            jTable2.getColumnModel().getColumn(5).setMaxWidth(160);
-            jTable2.getColumnModel().getColumn(6).setMinWidth(100);
-            jTable2.getColumnModel().getColumn(6).setPreferredWidth(100);
-            jTable2.getColumnModel().getColumn(6).setMaxWidth(100);
-            jTable2.getColumnModel().getColumn(7).setMinWidth(100);
-            jTable2.getColumnModel().getColumn(7).setPreferredWidth(100);
-            jTable2.getColumnModel().getColumn(7).setMaxWidth(100);
-            jTable2.getColumnModel().getColumn(8).setMinWidth(200);
-            jTable2.getColumnModel().getColumn(8).setPreferredWidth(200);
-            jTable2.getColumnModel().getColumn(8).setMaxWidth(200);
-            jTable2.getColumnModel().getColumn(9).setMinWidth(200);
-            jTable2.getColumnModel().getColumn(9).setPreferredWidth(200);
-            jTable2.getColumnModel().getColumn(9).setMaxWidth(200);
-            jTable2.getColumnModel().getColumn(10).setMinWidth(200);
-            jTable2.getColumnModel().getColumn(10).setPreferredWidth(200);
-            jTable2.getColumnModel().getColumn(10).setMaxWidth(200);
-            jTable2.getColumnModel().getColumn(11).setMinWidth(100);
-            jTable2.getColumnModel().getColumn(11).setPreferredWidth(100);
-            jTable2.getColumnModel().getColumn(11).setMaxWidth(100);
-            jTable2.getColumnModel().getColumn(12).setMinWidth(120);
-            jTable2.getColumnModel().getColumn(12).setPreferredWidth(120);
-            jTable2.getColumnModel().getColumn(12).setMaxWidth(120);
-            jTable2.getColumnModel().getColumn(13).setMinWidth(130);
-            jTable2.getColumnModel().getColumn(13).setPreferredWidth(130);
-            jTable2.getColumnModel().getColumn(13).setMaxWidth(130);
-            jTable2.getColumnModel().getColumn(14).setMinWidth(130);
-            jTable2.getColumnModel().getColumn(14).setPreferredWidth(130);
-            jTable2.getColumnModel().getColumn(14).setMaxWidth(130);
-            jTable2.getColumnModel().getColumn(15).setMinWidth(160);
-            jTable2.getColumnModel().getColumn(15).setPreferredWidth(160);
-            jTable2.getColumnModel().getColumn(15).setMaxWidth(160);
-            jTable2.getColumnModel().getColumn(16).setMinWidth(130);
-            jTable2.getColumnModel().getColumn(16).setPreferredWidth(130);
-            jTable2.getColumnModel().getColumn(16).setMaxWidth(130);
-            jTable2.getColumnModel().getColumn(17).setMinWidth(220);
-            jTable2.getColumnModel().getColumn(17).setPreferredWidth(220);
-            jTable2.getColumnModel().getColumn(17).setMaxWidth(220);
-            jTable2.getColumnModel().getColumn(18).setMinWidth(200);
-            jTable2.getColumnModel().getColumn(18).setPreferredWidth(200);
-            jTable2.getColumnModel().getColumn(18).setMaxWidth(200);
-            jTable2.getColumnModel().getColumn(19).setMinWidth(160);
-            jTable2.getColumnModel().getColumn(19).setPreferredWidth(160);
-            jTable2.getColumnModel().getColumn(19).setMaxWidth(160);
-            jTable2.getColumnModel().getColumn(20).setMinWidth(160);
-            jTable2.getColumnModel().getColumn(20).setPreferredWidth(160);
-            jTable2.getColumnModel().getColumn(20).setMaxWidth(160);
-            jTable2.getColumnModel().getColumn(21).setMinWidth(200);
-            jTable2.getColumnModel().getColumn(21).setPreferredWidth(200);
-            jTable2.getColumnModel().getColumn(21).setMaxWidth(200);
-            jTable2.getColumnModel().getColumn(22).setMinWidth(150);
-            jTable2.getColumnModel().getColumn(22).setPreferredWidth(150);
-            jTable2.getColumnModel().getColumn(22).setMaxWidth(150);
-            jTable2.getColumnModel().getColumn(23).setMinWidth(120);
-            jTable2.getColumnModel().getColumn(23).setPreferredWidth(120);
-            jTable2.getColumnModel().getColumn(23).setMaxWidth(120);
-        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -255,8 +172,8 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        
-        new Form_Customer_satisfaction1().setVisible(true);
+
+        new Form_Customer_Satisfaction().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -282,20 +199,20 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_Supplier_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_Satisfaction_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_Supplier_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_Satisfaction_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_Supplier_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_Satisfaction_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_Supplier_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_Satisfaction_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_Customer_Supplier_List().setVisible(true);
+                new Form_Customer_Satisfaction_List().setVisible(true);
             }
         });
     }

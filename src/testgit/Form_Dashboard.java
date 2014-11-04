@@ -61,6 +61,10 @@ public class Form_Dashboard extends javax.swing.JFrame {
         jMenuItem21 = new javax.swing.JMenuItem();
         jMenuItem22 = new javax.swing.JMenuItem();
         jMenuItem23 = new javax.swing.JMenuItem();
+        jMenuItem24 = new javax.swing.JMenuItem();
+        jMenuItem25 = new javax.swing.JMenuItem();
+        jMenuItem26 = new javax.swing.JMenuItem();
+        jMenuItem27 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenu5 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
@@ -270,9 +274,16 @@ public class Form_Dashboard extends javax.swing.JFrame {
         });
         jMenu3.add(jMenuItem20);
 
+        jMenuItem21.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jMenuItem21.setText("Customer  Complaint");
+        jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem21ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem21);
 
+        jMenuItem22.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jMenuItem22.setText("Customer Satisfaction Data Entry Form");
         jMenuItem22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -281,8 +292,45 @@ public class Form_Dashboard extends javax.swing.JFrame {
         });
         jMenu3.add(jMenuItem22);
 
+        jMenuItem23.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jMenuItem23.setText("---------------Reports------------------");
         jMenu3.add(jMenuItem23);
+
+        jMenuItem24.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem24.setText("Review of Enquires Analysis Report");
+        jMenuItem24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem24ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem24);
+
+        jMenuItem25.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem25.setText("Customer Quotation Analysis Report");
+        jMenuItem25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem25ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem25);
+
+        jMenuItem26.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem26.setText("Review of Customer Order Analysis Report");
+        jMenuItem26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem26ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem26);
+
+        jMenuItem27.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem27.setText("Review of Jobwork Analysis Report");
+        jMenuItem27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem27ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem27);
 
         jMenuBar1.add(jMenu3);
 
@@ -403,6 +451,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     private void jMenuItem22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem22ActionPerformed
         // TODO add your handling code here:
+        new Form_Customer_Satisfaction_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem22ActionPerformed
 
     private void jMenuItem17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem17ActionPerformed
@@ -419,6 +468,31 @@ public class Form_Dashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new Form_Review_Customer_Order_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem19ActionPerformed
+
+    private void jMenuItem21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem21ActionPerformed
+        // TODO add your handling code here:
+        new Form_Customer_Complaint_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem21ActionPerformed
+
+    private void jMenuItem24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem24ActionPerformed
+        // TODO add your handling code here:
+        new Form_Review_Of_Enquires_Analysis_Report().setVisible(true);
+    }//GEN-LAST:event_jMenuItem24ActionPerformed
+
+    private void jMenuItem27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem27ActionPerformed
+        // TODO add your handling code here:
+        new Form_Review_Of_JobWork_Analysis_Report().setVisible(true);
+    }//GEN-LAST:event_jMenuItem27ActionPerformed
+
+    private void jMenuItem26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem26ActionPerformed
+        // TODO add your handling code here:
+      new Form_Review_Of_Customer_Order_Analysis_Report().setVisible(true);
+    }//GEN-LAST:event_jMenuItem26ActionPerformed
+
+    private void jMenuItem25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem25ActionPerformed
+        // TODO add your handling code here:
+       new Form_Customer_Quotation_Report_Graph().setVisible(true);
+    }//GEN-LAST:event_jMenuItem25ActionPerformed
 
    
     
@@ -483,6 +557,10 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem21;
     private javax.swing.JMenuItem jMenuItem22;
     private javax.swing.JMenuItem jMenuItem23;
+    private javax.swing.JMenuItem jMenuItem24;
+    private javax.swing.JMenuItem jMenuItem25;
+    private javax.swing.JMenuItem jMenuItem26;
+    private javax.swing.JMenuItem jMenuItem27;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
