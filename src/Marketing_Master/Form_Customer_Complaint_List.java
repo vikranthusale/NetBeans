@@ -5,6 +5,8 @@
  */
 package Marketing_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,7 @@ public class Form_Customer_Complaint_List extends javax.swing.JFrame {
      */
     public Form_Customer_Complaint_List() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

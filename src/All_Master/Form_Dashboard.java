@@ -82,6 +82,10 @@ public class Form_Dashboard extends javax.swing.JFrame {
         jMenuItem29 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem28 = new javax.swing.JMenuItem();
+        jMenuItem30 = new javax.swing.JMenuItem();
+        jMenuItem31 = new javax.swing.JMenuItem();
+        jMenuItem32 = new javax.swing.JMenuItem();
+        jMenuItem33 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
         jMenu7 = new javax.swing.JMenu();
@@ -371,6 +375,32 @@ public class Form_Dashboard extends javax.swing.JFrame {
         });
         jMenu4.add(jMenuItem28);
 
+        jMenuItem30.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem30.setText("------------------Reports-----------------");
+        jMenu4.add(jMenuItem30);
+
+        jMenuItem31.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem31.setText("Supplier Performance Monitoring");
+        jMenuItem31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem31ActionPerformed(evt);
+            }
+        });
+        jMenu4.add(jMenuItem31);
+
+        jMenuItem32.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem32.setText("Purchase Order Report");
+        jMenuItem32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem32ActionPerformed(evt);
+            }
+        });
+        jMenu4.add(jMenuItem32);
+
+        jMenuItem33.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem33.setText("Evaluation Of Supplier");
+        jMenu4.add(jMenuItem33);
+
         jMenuBar1.add(jMenu4);
 
         jMenu5.setText("   Stores");
@@ -539,6 +569,15 @@ public class Form_Dashboard extends javax.swing.JFrame {
         new Form_List_of_Planning_of_Product_Realization().setVisible(true);
     }//GEN-LAST:event_jMenuItem29ActionPerformed
 
+    private void jMenuItem32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem32ActionPerformed
+
+    private void jMenuItem31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem31ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jMenuItem31ActionPerformed
+
    
     
     /**
@@ -609,6 +648,10 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem28;
     private javax.swing.JMenuItem jMenuItem29;
     private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem30;
+    private javax.swing.JMenuItem jMenuItem31;
+    private javax.swing.JMenuItem jMenuItem32;
+    private javax.swing.JMenuItem jMenuItem33;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;

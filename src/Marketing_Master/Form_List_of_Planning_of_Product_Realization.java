@@ -6,6 +6,8 @@
 
 package Marketing_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -19,6 +21,7 @@ public class Form_List_of_Planning_of_Product_Realization extends javax.swing.JF
 
     public Form_List_of_Planning_of_Product_Realization() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

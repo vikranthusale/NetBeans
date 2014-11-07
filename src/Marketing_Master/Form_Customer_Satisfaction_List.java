@@ -6,6 +6,8 @@
 
 package Marketing_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +19,7 @@ public class Form_Customer_Satisfaction_List extends javax.swing.JFrame {
      */
     public Form_Customer_Satisfaction_List() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**
