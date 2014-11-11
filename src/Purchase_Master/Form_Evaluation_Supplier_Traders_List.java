@@ -12,15 +12,15 @@ import javax.swing.JFrame;
  *
  * @author Kamod
  */
-public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFrame {
+public class Form_Evaluation_Supplier_Traders_List extends javax.swing.JFrame {
 
     /**
-     * Creates new form Form_Evaluation_Supplier_Manufacturer_List
+     * Creates new form Form_Evaluation_Supplier_Traders_List
      */
-    public Form_Evaluation_Supplier_Manufacturer_List() {
+    public Form_Evaluation_Supplier_Traders_List() {
         initComponents();
-        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-
+          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+          
     }
 
     /**
@@ -98,7 +98,7 @@ public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFra
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("List  Of  Evaluation of Supplier(Manufacture)");
+        jLabel1.setText("List  Of  Evaluation of Supplier(Traders)");
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -136,11 +136,11 @@ public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFra
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Supplier Name", "Address", "Supplier Representative", "Designation", "No.of Shifts", "Weekly Off", "Date", "1. Location", "2. Delivery Capability", "3. Commercial Capability", "4. Transportation Facility", "5. Present Customer range", "6. Plant/Office Layout", "7. Equipment / Machinery", "8. Process Control / technical Competence", "9. Inspection Facility /QA System", "10. Housekeeping", "11. Manpower", "Total", "percentage(%)", "Supplier is", "Remark", "Evaluated By", "Approved By", "Actual  Date Of Entry", "Actual Time", "User"
+                "Supplier Name", "Address", "Supplier Representative", "Designation", "No.of Shifts", "Weekly Off", "Date", "1. Location", "2. Delivery Capability", "3. Commercial Capability", "4. Transportation Facility", "5. Present Customer range", "6.Authorisation of dealership", "Total", "percentage(%)", "Supplier is", "Remark", "Evaluated By", "Approved By", "Actual  Date Of Entry", "Actual Time", "User"
             }
         ));
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
@@ -155,7 +155,7 @@ public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFra
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 708, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 789, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -164,9 +164,8 @@ public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFra
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -175,7 +174,7 @@ public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFra
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
 
-        new Form_Evaluation_Supplier_Manufacturer().setVisible(true);
+        new Form_Evaluation_Supplier_Traders().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -201,20 +200,20 @@ public class Form_Evaluation_Supplier_Manufacturer_List extends javax.swing.JFra
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Manufacturer_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Traders_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Manufacturer_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Traders_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Manufacturer_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Traders_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Manufacturer_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Evaluation_Supplier_Traders_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_Evaluation_Supplier_Manufacturer_List().setVisible(true);
+                new Form_Evaluation_Supplier_Traders_List().setVisible(true);
             }
         });
     }

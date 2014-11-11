@@ -1,18 +1,9 @@
 package All_Master;
 
-import Marketing_Master.Form_Review_Customer_Order_List;
-import Marketing_Master.Form_Customer_Quotation_Report_Graph;
-import Marketing_Master.Form_Customer_Complaint_List;
-import Marketing_Master.Form_Review_Of_Customer_Order_Analysis_Report;
-import Marketing_Master.Form_Review_Of_JobWork_Analysis_Report;
-import Marketing_Master.Form_Review_Of_Enquires_Analysis_Report;
-import Marketing_Master.Form_Review_Job_Work_List;
-import Marketing_Master.Form_Customer_Satisfaction_List;
-import Marketing_Master.Form_Quatation_List;
-import Marketing_Master.Form_Review_Enquires_List;
-import Marketing_Master.Form_List_of_Planning_of_Product_Realization;
 
-import Purchase_Master.Form_Purchase_Order_to_supplier_List;
+import Marketing_Master.*;
+import Purchase_Master.*;
+import Store_Master.*;
 import javax.swing.JFrame;
 
 
@@ -34,7 +25,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
      */
     public Form_Dashboard() {
         initComponents();
-                 this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
     }
 
@@ -47,7 +38,6 @@ public class Form_Dashboard extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -85,25 +75,20 @@ public class Form_Dashboard extends javax.swing.JFrame {
         jMenuItem30 = new javax.swing.JMenuItem();
         jMenuItem31 = new javax.swing.JMenuItem();
         jMenuItem32 = new javax.swing.JMenuItem();
+        jMenu8 = new javax.swing.JMenu();
         jMenuItem33 = new javax.swing.JMenuItem();
+        jMenuItem34 = new javax.swing.JMenuItem();
+        jMenuItem35 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
+        jMenuItem36 = new javax.swing.JMenuItem();
+        jMenuItem37 = new javax.swing.JMenuItem();
+        jMenuItem38 = new javax.swing.JMenuItem();
+        jMenuItem39 = new javax.swing.JMenuItem();
+        jMenuItem40 = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
         jMenu7 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 783, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 35, Short.MAX_VALUE)
-        );
 
         jMenu1.setBackground(new java.awt.Color(255, 255, 255));
         jMenu1.setBorder(null);
@@ -397,14 +382,88 @@ public class Form_Dashboard extends javax.swing.JFrame {
         });
         jMenu4.add(jMenuItem32);
 
+        jMenu8.setText("Evaluation Of Supplier");
+        jMenu8.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+
         jMenuItem33.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jMenuItem33.setText("Evaluation Of Supplier");
-        jMenu4.add(jMenuItem33);
+        jMenuItem33.setText("For Manufacturer");
+        jMenuItem33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem33ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem33);
+
+        jMenuItem34.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem34.setText("For Traders");
+        jMenuItem34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem34ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem34);
+
+        jMenuItem35.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem35.setText("For Service Provider");
+        jMenuItem35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem35ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem35);
+
+        jMenu4.add(jMenu8);
 
         jMenuBar1.add(jMenu4);
 
         jMenu5.setText("   Stores");
         jMenu5.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+
+        jMenuItem36.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem36.setText("Receiving Quality Plans");
+        jMenuItem36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem36ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem36);
+
+        jMenuItem37.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem37.setText("Store Inward and Inspection");
+        jMenuItem37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem37ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem37);
+
+        jMenuItem38.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem38.setText("Store Outward");
+        jMenuItem38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem38ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem38);
+
+        jMenuItem39.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem39.setText("-----------------Reports--------------");
+        jMenuItem39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem39ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem39);
+
+        jMenuItem40.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem40.setText("Store Stock Statement");
+        jMenuItem40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem40ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem40);
+
         jMenuBar1.add(jMenu5);
 
         jMenu6.setText("  Production");
@@ -421,13 +480,11 @@ public class Form_Dashboard extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGap(0, 783, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 470, Short.MAX_VALUE))
+            .addGap(0, 505, Short.MAX_VALUE)
         );
 
         pack();
@@ -571,12 +628,53 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     private void jMenuItem32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem32ActionPerformed
         // TODO add your handling code here:
+        new Form_purchase_Order_Report().setVisible(true);
     }//GEN-LAST:event_jMenuItem32ActionPerformed
 
     private void jMenuItem31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem31ActionPerformed
         // TODO add your handling code here:
-        
+        new Form_Supplier_Quality_Performance().setVisible(true);
+       
     }//GEN-LAST:event_jMenuItem31ActionPerformed
+
+    private void jMenuItem33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem33ActionPerformed
+        // TODO add your handling code here:
+        new Form_Evaluation_Supplier_Manufacturer_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem33ActionPerformed
+
+    private void jMenuItem34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem34ActionPerformed
+        // TODO add your handling code here:
+        new Form_Evaluation_Supplier_Traders_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem34ActionPerformed
+
+    private void jMenuItem35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem35ActionPerformed
+        // TODO add your handling code here:
+        new Form_Evaluation_Supplier_ServiceProvider_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem35ActionPerformed
+
+    private void jMenuItem39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem39ActionPerformed
+
+    private void jMenuItem36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem36ActionPerformed
+        // TODO add your handling code here:
+        new Form_Receiving_Quality_Plans_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem36ActionPerformed
+
+    private void jMenuItem37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem37ActionPerformed
+        // TODO add your handling code here:
+        new Form_Store_Inward_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem37ActionPerformed
+
+    private void jMenuItem38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem38ActionPerformed
+        // TODO add your handling code here:
+        new Form_Store_Outward_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem38ActionPerformed
+
+    private void jMenuItem40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem40ActionPerformed
+        // TODO add your handling code here:
+        new Form_Stores_Stock_Statement().setVisible(true);
+    }//GEN-LAST:event_jMenuItem40ActionPerformed
 
    
     
@@ -624,6 +722,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
@@ -652,12 +751,18 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem31;
     private javax.swing.JMenuItem jMenuItem32;
     private javax.swing.JMenuItem jMenuItem33;
+    private javax.swing.JMenuItem jMenuItem34;
+    private javax.swing.JMenuItem jMenuItem35;
+    private javax.swing.JMenuItem jMenuItem36;
+    private javax.swing.JMenuItem jMenuItem37;
+    private javax.swing.JMenuItem jMenuItem38;
+    private javax.swing.JMenuItem jMenuItem39;
     private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem40;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
-    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
