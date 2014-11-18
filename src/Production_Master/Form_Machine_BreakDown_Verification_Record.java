@@ -17,6 +17,7 @@ public class Form_Machine_BreakDown_Verification_Record extends javax.swing.JFra
     public Form_Machine_BreakDown_Verification_Record() {
         initComponents();
     }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -90,7 +91,7 @@ public class Form_Machine_BreakDown_Verification_Record extends javax.swing.JFra
         jTextField79 = new javax.swing.JTextField();
         jLabel107 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));

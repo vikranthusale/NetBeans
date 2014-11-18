@@ -93,7 +93,7 @@ public class Form_Machine_Preventive_Maintenance_List extends javax.swing.JFrame
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("List  Of  Process Planning");
+        jLabel1.setText("List  Of  Machine Preventive Maintenance");
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -108,7 +108,7 @@ public class Form_Machine_Preventive_Maintenance_List extends javax.swing.JFrame
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(321, Short.MAX_VALUE)
+                .addContainerGap(161, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(110, 110, 110)
                 .addComponent(jLabel2)

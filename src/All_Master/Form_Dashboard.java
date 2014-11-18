@@ -4,6 +4,9 @@ package All_Master;
 import Marketing_Master.*;
 import Purchase_Master.*;
 import Store_Master.*;
+import Production_Master.*;
+import Dispatch_Master.*;
+import QA_Master.*;
 import javax.swing.JFrame;
 
 
@@ -86,7 +89,26 @@ public class Form_Dashboard extends javax.swing.JFrame {
         jMenuItem39 = new javax.swing.JMenuItem();
         jMenuItem40 = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
+        jMenuItem44 = new javax.swing.JMenuItem();
+        jMenuItem45 = new javax.swing.JMenuItem();
+        jMenuItem46 = new javax.swing.JMenuItem();
+        jMenuItem47 = new javax.swing.JMenuItem();
+        jMenuItem48 = new javax.swing.JMenuItem();
+        jMenuItem49 = new javax.swing.JMenuItem();
+        jMenuItem50 = new javax.swing.JMenuItem();
+        jMenuItem51 = new javax.swing.JMenuItem();
+        jMenuItem52 = new javax.swing.JMenuItem();
+        jMenuItem53 = new javax.swing.JMenuItem();
+        jMenuItem54 = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
+        jMenuItem41 = new javax.swing.JMenuItem();
+        jMenuItem42 = new javax.swing.JMenuItem();
+        jMenuItem43 = new javax.swing.JMenuItem();
+        jMenu9 = new javax.swing.JMenu();
+        jMenuItem55 = new javax.swing.JMenuItem();
+        jMenuItem56 = new javax.swing.JMenuItem();
+        jMenuItem57 = new javax.swing.JMenuItem();
+        jMenuItem58 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -468,11 +490,170 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
         jMenu6.setText("  Production");
         jMenu6.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+
+        jMenuItem44.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem44.setText("Process Planning");
+        jMenuItem44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem44ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem44);
+
+        jMenuItem45.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem45.setText("Production Planning");
+        jMenuItem45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem45ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem45);
+
+        jMenuItem46.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem46.setText("Daily Production and In-Process Inspection");
+        jMenuItem46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem46ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem46);
+
+        jMenuItem47.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem47.setText("-------------------Machine------------");
+        jMenu6.add(jMenuItem47);
+
+        jMenuItem48.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem48.setText("Machine Maintenance Check Points");
+        jMenuItem48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem48ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem48);
+
+        jMenuItem49.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem49.setText("Machine Preventive Maintenance");
+        jMenuItem49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem49ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem49);
+
+        jMenuItem50.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem50.setText("Machine Breakdown Record");
+        jMenuItem50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem50ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem50);
+
+        jMenuItem51.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem51.setText("Machine Breakdown Verification Record");
+        jMenuItem51.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem51ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem51);
+
+        jMenuItem52.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem52.setText("-------------------Tool-------------------");
+        jMenu6.add(jMenuItem52);
+
+        jMenuItem53.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem53.setText("Tool Maintenance Check Points");
+        jMenuItem53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem53ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem53);
+
+        jMenuItem54.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem54.setText("Tool Preventive Maintenance");
+        jMenuItem54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem54ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem54);
+
         jMenuBar1.add(jMenu6);
 
-        jMenu7.setText("QA");
+        jMenu7.setText("   QA");
         jMenu7.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+
+        jMenuItem41.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem41.setText("Final Inspection Report");
+        jMenuItem41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem41ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem41);
+
+        jMenuItem42.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem42.setText("Sampling Selection Chart");
+        jMenuItem42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem42ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem42);
+
+        jMenuItem43.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem43.setText("In Process & Final NC");
+        jMenuItem43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem43ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem43);
+
         jMenuBar1.add(jMenu7);
+
+        jMenu9.setText("   Dispatch");
+        jMenu9.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+
+        jMenuItem55.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem55.setText("Challan");
+        jMenuItem55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem55ActionPerformed(evt);
+            }
+        });
+        jMenu9.add(jMenuItem55);
+
+        jMenuItem56.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem56.setText("Invoice");
+        jMenuItem56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem56ActionPerformed(evt);
+            }
+        });
+        jMenu9.add(jMenuItem56);
+
+        jMenuItem57.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem57.setText("Reconcillation");
+        jMenuItem57.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem57ActionPerformed(evt);
+            }
+        });
+        jMenu9.add(jMenuItem57);
+
+        jMenuItem58.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem58.setText("Returnble Challan");
+        jMenuItem58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem58ActionPerformed(evt);
+            }
+        });
+        jMenu9.add(jMenuItem58);
+
+        jMenuBar1.add(jMenu9);
 
         setJMenuBar(jMenuBar1);
 
@@ -676,6 +857,87 @@ public class Form_Dashboard extends javax.swing.JFrame {
         new Form_Stores_Stock_Statement().setVisible(true);
     }//GEN-LAST:event_jMenuItem40ActionPerformed
 
+    private void jMenuItem42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem42ActionPerformed
+        // TODO add your handling code here:
+        new Form_Sampling_Inspection_Chart().setVisible(true);
+    }//GEN-LAST:event_jMenuItem42ActionPerformed
+
+    private void jMenuItem54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem54ActionPerformed
+        // TODO add your handling code here:
+        new Form_Tool_Preventive_Maintenance_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem54ActionPerformed
+
+    private void jMenuItem44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem44ActionPerformed
+        // TODO add your handling code here:
+        new Form_Process_Planning_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem44ActionPerformed
+
+    private void jMenuItem45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem45ActionPerformed
+        // TODO add your handling code here:
+        new Form_Production_Planning_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem45ActionPerformed
+
+    private void jMenuItem46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem46ActionPerformed
+        // TODO add your handling code here:
+        new Form_Daily_Production_Inprocess_Inspection_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem46ActionPerformed
+
+    private void jMenuItem48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem48ActionPerformed
+        // TODO add your handling code here:
+        new Form_Machine_Maintenance_Check_Points_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem48ActionPerformed
+
+    private void jMenuItem49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem49ActionPerformed
+        // TODO add your handling code here:
+       new Form_Machine_Preventive_Maintenance_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem49ActionPerformed
+
+    private void jMenuItem50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem50ActionPerformed
+        // TODO add your handling code here:
+        new Form_Machine_Breakdown_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem50ActionPerformed
+
+    private void jMenuItem51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem51ActionPerformed
+        // TODO add your handling code here:
+        new Form_Verification_Machine_Breakdown_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem51ActionPerformed
+
+    private void jMenuItem53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem53ActionPerformed
+        // TODO add your handling code here:
+        new Form_Tool_Maintenance_Tool_Checkpoint_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem53ActionPerformed
+
+    private void jMenuItem41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem41ActionPerformed
+        // TODO add your handling code here:
+        new Form_Final_Inspection_Report_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem41ActionPerformed
+
+    private void jMenuItem43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem43ActionPerformed
+        // TODO add your handling code here:
+        new Form_Inprocess_And_Final_NC_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem43ActionPerformed
+
+    private void jMenuItem55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem55ActionPerformed
+        // TODO add your handling code here:
+        new Form_Challan_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem55ActionPerformed
+
+    private void jMenuItem56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem56ActionPerformed
+        // TODO add your handling code here:
+        new Form_Invoice_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem56ActionPerformed
+
+    private void jMenuItem57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem57ActionPerformed
+        // TODO add your handling code here:
+        new Form_Reconciliation().setVisible(true);        
+
+    }//GEN-LAST:event_jMenuItem57ActionPerformed
+
+    private void jMenuItem58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem58ActionPerformed
+        // TODO add your handling code here:
+        new Form_Returnable_Challan_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem58ActionPerformed
+
    
     
     /**
@@ -723,6 +985,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
@@ -759,7 +1022,25 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem39;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem40;
+    private javax.swing.JMenuItem jMenuItem41;
+    private javax.swing.JMenuItem jMenuItem42;
+    private javax.swing.JMenuItem jMenuItem43;
+    private javax.swing.JMenuItem jMenuItem44;
+    private javax.swing.JMenuItem jMenuItem45;
+    private javax.swing.JMenuItem jMenuItem46;
+    private javax.swing.JMenuItem jMenuItem47;
+    private javax.swing.JMenuItem jMenuItem48;
+    private javax.swing.JMenuItem jMenuItem49;
     private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem50;
+    private javax.swing.JMenuItem jMenuItem51;
+    private javax.swing.JMenuItem jMenuItem52;
+    private javax.swing.JMenuItem jMenuItem53;
+    private javax.swing.JMenuItem jMenuItem54;
+    private javax.swing.JMenuItem jMenuItem55;
+    private javax.swing.JMenuItem jMenuItem56;
+    private javax.swing.JMenuItem jMenuItem57;
+    private javax.swing.JMenuItem jMenuItem58;
     private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;

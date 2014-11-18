@@ -89,7 +89,7 @@ public class Form_Machine_Breakdown extends javax.swing.JFrame {
         jTextField79 = new javax.swing.JTextField();
         jLabel107 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
