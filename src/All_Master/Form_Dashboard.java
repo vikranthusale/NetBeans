@@ -7,6 +7,8 @@ import Store_Master.*;
 import Production_Master.*;
 import Dispatch_Master.*;
 import QA_Master.*;
+import Training_Master.*;
+
 import javax.swing.JFrame;
 
 
@@ -109,6 +111,13 @@ public class Form_Dashboard extends javax.swing.JFrame {
         jMenuItem56 = new javax.swing.JMenuItem();
         jMenuItem57 = new javax.swing.JMenuItem();
         jMenuItem58 = new javax.swing.JMenuItem();
+        jMenu10 = new javax.swing.JMenu();
+        jMenuItem59 = new javax.swing.JMenuItem();
+        jMenuItem60 = new javax.swing.JMenuItem();
+        jMenuItem61 = new javax.swing.JMenuItem();
+        jMenuItem62 = new javax.swing.JMenuItem();
+        jMenuItem63 = new javax.swing.JMenuItem();
+        jMenuItem64 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -655,6 +664,60 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu9);
 
+        jMenu10.setText("Training");
+        jMenu10.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+
+        jMenuItem59.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem59.setText("Training Need Identification");
+        jMenuItem59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem59ActionPerformed(evt);
+            }
+        });
+        jMenu10.add(jMenuItem59);
+
+        jMenuItem60.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem60.setText("Training Planning");
+        jMenu10.add(jMenuItem60);
+
+        jMenuItem61.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem61.setText("Training Achievement");
+        jMenuItem61.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem61ActionPerformed(evt);
+            }
+        });
+        jMenu10.add(jMenuItem61);
+
+        jMenuItem62.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem62.setText("Training Card");
+        jMenuItem62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem62ActionPerformed(evt);
+            }
+        });
+        jMenu10.add(jMenuItem62);
+
+        jMenuItem63.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem63.setText("Skill Identification ");
+        jMenuItem63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem63ActionPerformed(evt);
+            }
+        });
+        jMenu10.add(jMenuItem63);
+
+        jMenuItem64.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem64.setText("Skill Monitoring");
+        jMenuItem64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem64ActionPerformed(evt);
+            }
+        });
+        jMenu10.add(jMenuItem64);
+
+        jMenuBar1.add(jMenu10);
+
         setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -938,6 +1001,31 @@ public class Form_Dashboard extends javax.swing.JFrame {
         new Form_Returnable_Challan_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem58ActionPerformed
 
+    private void jMenuItem59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem59ActionPerformed
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_jMenuItem59ActionPerformed
+
+    private void jMenuItem61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem61ActionPerformed
+        // TODO add your handling code here:
+        new Form_Training_Achievement_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem61ActionPerformed
+
+    private void jMenuItem62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem62ActionPerformed
+        // TODO add your handling code here:
+        new Form_Training_Card().setVisible(true);
+    }//GEN-LAST:event_jMenuItem62ActionPerformed
+
+    private void jMenuItem63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem63ActionPerformed
+        // TODO add your handling code here:
+        new Form_Skill_Identification_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem63ActionPerformed
+
+    private void jMenuItem64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem64ActionPerformed
+        // TODO add your handling code here:
+        new Form_Skill_Monitoring_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem64ActionPerformed
+
    
     
     /**
@@ -978,6 +1066,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu10;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
@@ -1041,7 +1130,13 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem56;
     private javax.swing.JMenuItem jMenuItem57;
     private javax.swing.JMenuItem jMenuItem58;
+    private javax.swing.JMenuItem jMenuItem59;
     private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem60;
+    private javax.swing.JMenuItem jMenuItem61;
+    private javax.swing.JMenuItem jMenuItem62;
+    private javax.swing.JMenuItem jMenuItem63;
+    private javax.swing.JMenuItem jMenuItem64;
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
