@@ -5,6 +5,10 @@
  */
 package Training_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Admin
@@ -16,6 +20,9 @@ public class Form_Training_Card extends javax.swing.JFrame {
      */
     public Form_Training_Card() {
         initComponents();
+           this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+           this.setLayout(new GridBagLayout());
+                             this.add(jPanel1, new GridBagConstraints());
     }
 
     /**

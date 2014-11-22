@@ -678,6 +678,11 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
         jMenuItem60.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jMenuItem60.setText("Training Planning");
+        jMenuItem60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem60ActionPerformed(evt);
+            }
+        });
         jMenu10.add(jMenuItem60);
 
         jMenuItem61.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
@@ -1003,6 +1008,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     private void jMenuItem59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem59ActionPerformed
         // TODO add your handling code here:
+        new Form_Training_Need_Identification_List().setVisible(true);
 
     }//GEN-LAST:event_jMenuItem59ActionPerformed
 
@@ -1025,6 +1031,12 @@ public class Form_Dashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new Form_Skill_Monitoring_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem64ActionPerformed
+
+    private void jMenuItem60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem60ActionPerformed
+        // TODO add your handling code here:
+                new Form_Training_Planning_List().setVisible(true);
+
+    }//GEN-LAST:event_jMenuItem60ActionPerformed
 
    
     
