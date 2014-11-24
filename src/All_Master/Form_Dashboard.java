@@ -664,7 +664,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu9);
 
-        jMenu10.setText("Training");
+        jMenu10.setText("  Training");
         jMenu10.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
 
         jMenuItem59.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
