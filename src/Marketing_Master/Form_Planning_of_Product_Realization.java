@@ -823,7 +823,7 @@ public class Form_Planning_of_Product_Realization extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        new Form_List_of_Planning_of_Product_Realization().setVisible(true);
+        new Form_Planning_of_Product_Realization_List().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 

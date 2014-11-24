@@ -5,6 +5,10 @@
  */
 package Dispatch_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +20,9 @@ public class Form_Reconciliation extends javax.swing.JFrame {
      */
     public Form_Reconciliation() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+           this.setLayout(new GridBagLayout());
+                             this.add(jPanel1, new GridBagConstraints()); 
     }
 
     /**

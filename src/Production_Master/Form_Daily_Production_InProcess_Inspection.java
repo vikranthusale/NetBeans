@@ -5,6 +5,10 @@
  */
 package Production_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 
 /**
  *
@@ -18,6 +22,9 @@ public class Form_Daily_Production_InProcess_Inspection extends javax.swing.JFra
      */
     public Form_Daily_Production_InProcess_Inspection() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+           this.setLayout(new GridBagLayout());
+                             this.add(jPanel1, new GridBagConstraints());
     }
 
     /**

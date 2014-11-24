@@ -5,6 +5,10 @@
  */
 package Production_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +20,9 @@ public class Form_Machine_BreakDown_Verification_Record extends javax.swing.JFra
      */
     public Form_Machine_BreakDown_Verification_Record() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+           this.setLayout(new GridBagLayout());
+                             this.add(jPanel3, new GridBagConstraints());
     }
     
 

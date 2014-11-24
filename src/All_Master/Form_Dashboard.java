@@ -872,7 +872,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     private void jMenuItem29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem29ActionPerformed
         // TODO add your handling code here:
-        new Form_List_of_Planning_of_Product_Realization().setVisible(true);
+        new Form_Planning_of_Product_Realization_List().setVisible(true);
     }//GEN-LAST:event_jMenuItem29ActionPerformed
 
     private void jMenuItem32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem32ActionPerformed

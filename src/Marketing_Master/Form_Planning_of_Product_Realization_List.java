@@ -13,13 +13,13 @@ import javax.swing.JFrame;
  * @author Administrator
  */
 
-public class Form_List_of_Planning_of_Product_Realization extends javax.swing.JFrame {
+public class Form_Planning_of_Product_Realization_List extends javax.swing.JFrame {
     
     /**
      * Creates new form Form_List_of_Planning_of_Product_Realization
      */
 
-    public Form_List_of_Planning_of_Product_Realization() {
+    public Form_Planning_of_Product_Realization_List() {
         initComponents();
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
@@ -197,20 +197,21 @@ public class Form_List_of_Planning_of_Product_Realization extends javax.swing.JF
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_List_of_Planning_of_Product_Realization.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Planning_of_Product_Realization_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_List_of_Planning_of_Product_Realization.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Planning_of_Product_Realization_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_List_of_Planning_of_Product_Realization.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Planning_of_Product_Realization_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_List_of_Planning_of_Product_Realization.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Planning_of_Product_Realization_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_List_of_Planning_of_Product_Realization().setVisible(true);
+                new Form_Planning_of_Product_Realization_List().setVisible(true);
             }
         });
     }
