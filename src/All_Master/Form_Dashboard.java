@@ -8,6 +8,7 @@ import Production_Master.*;
 import Dispatch_Master.*;
 import QA_Master.*;
 import Training_Master.*;
+import Account_Master.*;
 
 import javax.swing.JFrame;
 
@@ -118,6 +119,21 @@ public class Form_Dashboard extends javax.swing.JFrame {
         jMenuItem62 = new javax.swing.JMenuItem();
         jMenuItem63 = new javax.swing.JMenuItem();
         jMenuItem64 = new javax.swing.JMenuItem();
+        jMenu11 = new javax.swing.JMenu();
+        jMenuItem65 = new javax.swing.JMenuItem();
+        jMenuItem66 = new javax.swing.JMenuItem();
+        jMenuItem67 = new javax.swing.JMenuItem();
+        jMenuItem68 = new javax.swing.JMenuItem();
+        jMenuItem69 = new javax.swing.JMenuItem();
+        jMenuItem70 = new javax.swing.JMenuItem();
+        jMenuItem71 = new javax.swing.JMenuItem();
+        jMenuItem72 = new javax.swing.JMenuItem();
+        jMenuItem73 = new javax.swing.JMenuItem();
+        jMenuItem74 = new javax.swing.JMenuItem();
+        jMenuItem75 = new javax.swing.JMenuItem();
+        jMenuItem76 = new javax.swing.JMenuItem();
+        jMenuItem77 = new javax.swing.JMenuItem();
+        jMenuItem78 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -723,13 +739,134 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu10);
 
+        jMenu11.setText("  Account");
+        jMenu11.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+
+        jMenuItem65.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem65.setText("Received  Cash/Cheque");
+        jMenuItem65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem65ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem65);
+
+        jMenuItem66.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem66.setText("Payment (Out )");
+        jMenuItem66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem66ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem66);
+
+        jMenuItem67.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem67.setText("Bank A/C");
+        jMenuItem67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem67ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem67);
+
+        jMenuItem68.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem68.setText("Journal");
+        jMenuItem68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem68ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem68);
+
+        jMenuItem69.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem69.setText("-------------Reports -------------");
+        jMenu11.add(jMenuItem69);
+
+        jMenuItem70.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem70.setText("Day Report");
+        jMenuItem70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem70ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem70);
+
+        jMenuItem71.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem71.setText("Supplier Ledger");
+        jMenuItem71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem71ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem71);
+
+        jMenuItem72.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem72.setText("Customer Ledger");
+        jMenuItem72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem72ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem72);
+
+        jMenuItem73.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem73.setText("Account Ledger");
+        jMenuItem73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem73ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem73);
+
+        jMenuItem74.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem74.setText("Account  Ledger  Graph");
+        jMenuItem74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem74ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem74);
+
+        jMenuItem75.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem75.setText("-----------Final  Reports-----------");
+        jMenu11.add(jMenuItem75);
+
+        jMenuItem76.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem76.setText("Trial  Balance");
+        jMenuItem76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem76ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem76);
+
+        jMenuItem77.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem77.setText("Profit  And Loss");
+        jMenuItem77.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem77ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem77);
+
+        jMenuItem78.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jMenuItem78.setText("Balance Sheet");
+        jMenuItem78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem78ActionPerformed(evt);
+            }
+        });
+        jMenu11.add(jMenuItem78);
+
+        jMenuBar1.add(jMenu11);
+
         setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 783, Short.MAX_VALUE)
+            .addGap(0, 878, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1038,6 +1175,66 @@ public class Form_Dashboard extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jMenuItem60ActionPerformed
 
+    private void jMenuItem65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem65ActionPerformed
+        // TODO add your handling code here:
+        new Form_Received_Cash_Cheque_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem65ActionPerformed
+
+    private void jMenuItem66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem66ActionPerformed
+        // TODO add your handling code here:
+        new Form_Payment_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem66ActionPerformed
+
+    private void jMenuItem67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem67ActionPerformed
+        // TODO add your handling code here:
+        new Form_Bank_Ac_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem67ActionPerformed
+
+    private void jMenuItem68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem68ActionPerformed
+        // TODO add your handling code here:
+        new Form_Journal_List().setVisible(true);
+    }//GEN-LAST:event_jMenuItem68ActionPerformed
+
+    private void jMenuItem70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem70ActionPerformed
+        // TODO add your handling code here:
+        new Form_Day_Report().setVisible(true);
+    }//GEN-LAST:event_jMenuItem70ActionPerformed
+
+    private void jMenuItem71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem71ActionPerformed
+        // TODO add your handling code here:
+        new Form_Supplier_Ledger().setVisible(true);
+    }//GEN-LAST:event_jMenuItem71ActionPerformed
+
+    private void jMenuItem72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem72ActionPerformed
+        // TODO add your handling code here:
+        new Form_Customer_Ledger().setVisible(true);
+    }//GEN-LAST:event_jMenuItem72ActionPerformed
+
+    private void jMenuItem73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem73ActionPerformed
+        // TODO add your handling code here:
+        new Form_Account_Ledger().setVisible(true);
+    }//GEN-LAST:event_jMenuItem73ActionPerformed
+
+    private void jMenuItem74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem74ActionPerformed
+        // TODO add your handling code here:
+        new Form_Account_Ledger_Graph().setVisible(true);
+    }//GEN-LAST:event_jMenuItem74ActionPerformed
+
+    private void jMenuItem76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem76ActionPerformed
+        // TODO add your handling code here:
+        new Form_Trial_Balance().setVisible(true);
+    }//GEN-LAST:event_jMenuItem76ActionPerformed
+
+    private void jMenuItem77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem77ActionPerformed
+        // TODO add your handling code here:
+        new Form_Profit_Loss().setVisible(true);
+    }//GEN-LAST:event_jMenuItem77ActionPerformed
+
+    private void jMenuItem78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem78ActionPerformed
+        // TODO add your handling code here:
+        new Form_Balance_Sheet().setVisible(true);
+    }//GEN-LAST:event_jMenuItem78ActionPerformed
+
    
     
     /**
@@ -1079,6 +1276,7 @@ public class Form_Dashboard extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu10;
+    private javax.swing.JMenu jMenu11;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
@@ -1149,7 +1347,21 @@ public class Form_Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem62;
     private javax.swing.JMenuItem jMenuItem63;
     private javax.swing.JMenuItem jMenuItem64;
+    private javax.swing.JMenuItem jMenuItem65;
+    private javax.swing.JMenuItem jMenuItem66;
+    private javax.swing.JMenuItem jMenuItem67;
+    private javax.swing.JMenuItem jMenuItem68;
+    private javax.swing.JMenuItem jMenuItem69;
     private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem70;
+    private javax.swing.JMenuItem jMenuItem71;
+    private javax.swing.JMenuItem jMenuItem72;
+    private javax.swing.JMenuItem jMenuItem73;
+    private javax.swing.JMenuItem jMenuItem74;
+    private javax.swing.JMenuItem jMenuItem75;
+    private javax.swing.JMenuItem jMenuItem76;
+    private javax.swing.JMenuItem jMenuItem77;
+    private javax.swing.JMenuItem jMenuItem78;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables

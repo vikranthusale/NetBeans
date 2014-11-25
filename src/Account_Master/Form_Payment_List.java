@@ -6,6 +6,10 @@
 
 package Account_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +21,9 @@ public class Form_Payment_List extends javax.swing.JFrame {
      */
     public Form_Payment_List() {
         initComponents();
+          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        //this.setLayout(new GridBagLayout());
+       // this.add(jPanel12, new GridBagConstraints());
     }
 
     /**

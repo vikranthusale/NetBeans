@@ -24,8 +24,8 @@ public class Form_Finished_Product extends javax.swing.JFrame {
       // this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         initComponents();
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-     this.setLayout(new GridBagLayout());
-                             this.add(jPanel2, new GridBagConstraints());
+        this.setLayout(new GridBagLayout());
+        this.add(jPanel2, new GridBagConstraints());
         // new Form_Finished_Product().setSize(Toolkit.getDefaultToolkit().getScreenSize().width,Toolkit.getDefaultToolkit().getScreenSize().height);
     }
 

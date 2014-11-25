@@ -14,16 +14,16 @@ import javax.swing.JFrame;
  *
  * @author Kamod
  */
-public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
+public class Form_Bank_Ac_List extends javax.swing.JFrame {
 
     /**
-     * Creates new form Form_Received_Cash_Cheque_List
+     * Creates new form Form_Bank_Ac_List
      */
-    public Form_Received_Cash_Cheque_List() {
+    public Form_Bank_Ac_List() {
         initComponents();
-          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-       // this.setLayout(new GridBagLayout());
-        //this.add(jPanel12, new GridBagConstraints());
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        // this.setLayout(new GridBagLayout());
+         //this.add(jPanel12, new GridBagConstraints());
     }
 
     /**
@@ -83,7 +83,7 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(179, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -101,7 +101,7 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("List  Of  Received Cash/Cheque    find");
+        jLabel1.setText("List  Of  Bank A/C     Find");
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,9 +116,9 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(127, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addGap(38, 38, 38)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
@@ -144,7 +144,7 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Receipt No", "Date Of Entry", "Name", "Credit (Taken)(Rs.)", "Debit (Given)(Rs.)", "Description", "Actual  Date Of entry", "Actual Time", "User"
+                "Contra  No", "Date Of Entry", "Name", "Credit (Taken)(Rs.)", "Debit (Given)(Rs.)", "Description", "Actual  Date Of entry", "Actual Time", "User"
             }
         ));
         jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -172,7 +172,7 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(149, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -181,7 +181,7 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
 
-        new Form_Received_Cash_Cheque().setVisible(true);
+        new Form_Bank_Ac().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 
@@ -207,29 +207,25 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_Received_Cash_Cheque_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Bank_Ac_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_Received_Cash_Cheque_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Bank_Ac_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_Received_Cash_Cheque_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Bank_Ac_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_Received_Cash_Cheque_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Bank_Ac_List.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_Received_Cash_Cheque_List().setVisible(true);
+                new Form_Bank_Ac_List().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
@@ -237,7 +233,6 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane3;
