@@ -6,6 +6,10 @@
 
 package Account_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +21,9 @@ public class Form_Received_Cash_Cheque extends javax.swing.JFrame {
      */
     public Form_Received_Cash_Cheque() {
         initComponents();
+          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+           this.setLayout(new GridBagLayout());
+                             this.add(jPanel12, new GridBagConstraints()); 
     }
 
     /**
@@ -64,7 +71,7 @@ public class Form_Received_Cash_Cheque extends javax.swing.JFrame {
 
         jPanel12.setBackground(new java.awt.Color(204, 204, 204));
         jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel12.setPreferredSize(new java.awt.Dimension(690, 450));
+        jPanel12.setPreferredSize(new java.awt.Dimension(745, 660));
 
         jPanel13.setBackground(new java.awt.Color(153, 153, 153));
 
@@ -358,14 +365,12 @@ public class Form_Received_Cash_Cheque extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 744, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, 744, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 659, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, 659, Short.MAX_VALUE)
         );
 
         pack();

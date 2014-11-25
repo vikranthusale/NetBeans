@@ -6,6 +6,10 @@
 
 package Account_Master;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +21,9 @@ public class Form_Supplier_Ledger extends javax.swing.JFrame {
      */
     public Form_Supplier_Ledger() {
         initComponents();
+          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+           this.setLayout(new GridBagLayout());
+                             this.add(jPanel12, new GridBagConstraints()); 
     }
 
     /**
@@ -61,7 +68,7 @@ public class Form_Supplier_Ledger extends javax.swing.JFrame {
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel13Layout.createSequentialGroup()
-                .addGap(304, 304, 304)
+                .addGap(280, 280, 280)
                 .addComponent(jLabel12)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );

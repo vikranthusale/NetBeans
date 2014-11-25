@@ -70,7 +70,7 @@ public class Form_Journal extends javax.swing.JFrame {
 
         jPanel12.setBackground(new java.awt.Color(204, 204, 204));
         jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel12.setPreferredSize(new java.awt.Dimension(690, 450));
+        jPanel12.setPreferredSize(new java.awt.Dimension(690, 520));
 
         jPanel13.setBackground(new java.awt.Color(153, 153, 153));
 

@@ -14,7 +14,7 @@ import javax.swing.JFrame;
  *
  * @author Kamod
  */
-public class Form_Store_Inward_and_Inspection extends javax.swing.JFrame {
+public class Form_Store_Inward_and_Inspection extends javax.swing.JFrame { 
 
     /**
      * Creates new form Form_Store_Inward_and_Inspection
