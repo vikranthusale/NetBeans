@@ -144,6 +144,7 @@ public class Form_Resource_Planning_List extends javax.swing.JFrame {
                 "Sr No.", "Identified On Date", "Resource Description", "Qty", "Purpose", "Identified By", "Completion Responsbility"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
@@ -185,8 +186,7 @@ public class Form_Resource_Planning_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 57, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 375, Short.MAX_VALUE))
         );
 
         pack();

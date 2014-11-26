@@ -44,7 +44,7 @@ public class Form_Inprocess_And_Final_NC_List extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel4.setBackground(new java.awt.Color(203, 252, 225));
-        jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jButton5.setText("Add  New");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -143,6 +143,7 @@ public class Form_Inprocess_And_Final_NC_List extends javax.swing.JFrame {
                 "Sr No.", "Date Of Entry", "Stage Of Manufacturing", "Non-Confirmity Observed", "Action Taken On Non-Confirming Product", "Root Cause", "Action Taken To Prevent Recurrence", "Responsbility", "Target Date", "Completion status", "Verification Date", "Actual Date Of Entry", "Actual Time ", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);
@@ -153,7 +154,7 @@ public class Form_Inprocess_And_Final_NC_List extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 842, Short.MAX_VALUE)
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -162,8 +163,7 @@ public class Form_Inprocess_And_Final_NC_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 451, Short.MAX_VALUE))
         );
 
         pack();

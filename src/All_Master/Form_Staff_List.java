@@ -174,6 +174,7 @@ public class Form_Staff_List extends javax.swing.JFrame {
                 "Last Name", "First Name", "Middle Name", "Designation", "Date Of Joining", "Mobile No", "Qualification", "Previous Exp", "Existing Skills", "Required Skills", "Department", "Is Staff  Left", "Date Of Leaving", "Photo", "Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setPreferredSize(new java.awt.Dimension(590, 390));
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
@@ -248,8 +249,8 @@ public class Form_Staff_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(302, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 460, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();

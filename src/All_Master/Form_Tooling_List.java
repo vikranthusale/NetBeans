@@ -144,6 +144,7 @@ public class Form_Tooling_List extends javax.swing.JFrame {
                 "Description Of Tool", "Type Of Tooling", "Cost(Rs.)", "Date Of Purchasing", "Whether Of Supplied By Customer", "Tool No.", "Reason Of Issuing Tool", "Action Taken On Previous Issued Tool ", "Issued By", "Issued To", "Perishable Tool?", "Tool Broken?", "Broken Date", "Date Of Entry", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
@@ -219,8 +220,7 @@ public class Form_Tooling_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 336, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(105, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 457, Short.MAX_VALUE))
         );
 
         pack();

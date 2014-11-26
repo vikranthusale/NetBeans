@@ -147,6 +147,7 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
                 "Contra  No", "Date Of Entry", "Name", "Credit (Taken)(Rs.)", "Debit (Given)(Rs.)", "Description", "Actual  Date Of entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jTable2.setMinimumSize(new java.awt.Dimension(3470, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1000, 500));
@@ -171,8 +172,8 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 309, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();

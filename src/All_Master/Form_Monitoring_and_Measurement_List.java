@@ -145,6 +145,7 @@ public class Form_Monitoring_and_Measurement_List extends javax.swing.JFrame {
                 "Equipment Description", "Equipment No.", "Range/Size", "Least Count", "Make", "Date Of Purchase", "Whether Supplied By Customer", "Date Of  Calibration", "Calibration Frequency(Month)", "Due  Date of Calibration", "Calibration Agency", "Calibration  Certificate No.", "Equipment  Status", "Attach  Certificate here 1", "Attach Certificate here2", "Date of Entry", "Actual Date of Entry", "Actual  Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jTable2.getTableHeader().setReorderingAllowed(false);
@@ -217,7 +218,7 @@ public class Form_Monitoring_and_Measurement_List extends javax.swing.JFrame {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 906, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -227,8 +228,8 @@ public class Form_Monitoring_and_Measurement_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 432, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();

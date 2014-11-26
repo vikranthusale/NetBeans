@@ -143,6 +143,7 @@ public class Form_Account_List extends javax.swing.JFrame {
                 "Account Name", "Account Head", "Address", "Phone No.", "Opening Bal", "Date of Entry", "Actual  Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jTable2.getTableHeader().setReorderingAllowed(false);
@@ -191,8 +192,8 @@ public class Form_Account_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 429, Short.MAX_VALUE)
+                .addGap(1, 1, 1))
         );
 
         pack();
