@@ -5,6 +5,8 @@
  */
 package Production_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,7 @@ public class Form_Verification_Machine_Breakdown_List extends javax.swing.JFrame
      */
     public Form_Verification_Machine_Breakdown_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

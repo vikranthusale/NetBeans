@@ -6,7 +6,7 @@
 
 package All_Master;
 
-import Marketing_Master.Form_Customer_satisfaction1;
+import Marketing_Master.Form_Customer_satisfaction;
 import javax.swing.JFrame;
 
 /**

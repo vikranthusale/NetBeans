@@ -5,6 +5,8 @@
  */
 package Production_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,7 @@ public class Form_Daily_Production_Inprocess_Inspection_List extends javax.swing
      */
     public Form_Daily_Production_Inprocess_Inspection_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

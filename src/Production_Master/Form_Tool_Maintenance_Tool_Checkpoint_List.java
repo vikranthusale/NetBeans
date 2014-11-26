@@ -5,6 +5,8 @@
  */
 package Production_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,7 @@ public class Form_Tool_Maintenance_Tool_Checkpoint_List extends javax.swing.JFra
      */
     public Form_Tool_Maintenance_Tool_Checkpoint_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

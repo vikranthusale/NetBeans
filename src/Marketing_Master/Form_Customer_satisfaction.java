@@ -14,12 +14,12 @@ import javax.swing.JFrame;
  *
  * @author Kamod
  */
-public class Form_Customer_satisfaction1 extends javax.swing.JFrame {
+public class Form_Customer_satisfaction extends javax.swing.JFrame {
 
     /**
      * Creates new form Form_Customer_Supplier1
      */
-    public Form_Customer_satisfaction1() {
+    public Form_Customer_satisfaction() {
         initComponents();
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
          this.setLayout(new GridBagLayout());
@@ -864,7 +864,7 @@ public class Form_Customer_satisfaction1 extends javax.swing.JFrame {
                     .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(109, 109, 109))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 857, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 857, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
@@ -997,20 +997,20 @@ public class Form_Customer_satisfaction1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_satisfaction1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_satisfaction.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_satisfaction1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_satisfaction.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_satisfaction1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_satisfaction.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_Customer_satisfaction1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Form_Customer_satisfaction.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_Customer_satisfaction1().setVisible(true);
+                new Form_Customer_satisfaction().setVisible(true);
             }
         });
     }

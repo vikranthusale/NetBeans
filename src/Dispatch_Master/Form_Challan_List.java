@@ -6,6 +6,8 @@
 
 package Dispatch_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +19,7 @@ public class Form_Challan_List extends javax.swing.JFrame {
      */
     public Form_Challan_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

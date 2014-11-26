@@ -6,6 +6,8 @@
 
 package Store_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +19,7 @@ public class Form_Store_Inward_List extends javax.swing.JFrame {
      */
     public Form_Store_Inward_List() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

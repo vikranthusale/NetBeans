@@ -5,6 +5,8 @@
  */
 package Production_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Admin
@@ -16,6 +18,7 @@ public class Form_Machine_Maintenance_Check_Points_List extends javax.swing.JFra
      */
     public Form_Machine_Maintenance_Check_Points_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

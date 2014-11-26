@@ -5,6 +5,8 @@
  */
 package Store_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -15,6 +17,7 @@ public class Form_Receiving_Quality_Plans_List extends javax.swing.JFrame {
      */
     public Form_Receiving_Quality_Plans_List() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
     
     /**

@@ -12,13 +12,12 @@ import javax.swing.JFrame;
  * @author Administrator
  */
 public class Form_Training_List extends javax.swing.JFrame {
-
     /**
      * Creates new form Form_Training_List
      */
     public Form_Training_List() {
         initComponents();
-                         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
     }
 

@@ -6,6 +6,8 @@
 
 package Purchase_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Kamod
@@ -17,6 +19,7 @@ public class Form_Evaluation_Supplier_ServiceProvider_List extends javax.swing.J
      */
     public Form_Evaluation_Supplier_ServiceProvider_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

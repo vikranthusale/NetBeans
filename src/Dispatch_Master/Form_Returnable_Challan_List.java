@@ -5,6 +5,8 @@
  */
 package Dispatch_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,7 @@ public class Form_Returnable_Challan_List extends javax.swing.JFrame {
      */
     public Form_Returnable_Challan_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

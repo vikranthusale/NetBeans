@@ -4,6 +4,8 @@
  */
 package QA_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Owner
@@ -15,6 +17,7 @@ public class Form_Inprocess_And_Final_NC_List extends javax.swing.JFrame {
      */
     public Form_Inprocess_And_Final_NC_List() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

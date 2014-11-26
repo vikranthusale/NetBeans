@@ -5,6 +5,8 @@
  */
 package Production_Master;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Admin
@@ -16,6 +18,7 @@ public class Form_Production_Planning_List extends javax.swing.JFrame {
      */
     public Form_Production_Planning_List() {
         initComponents();
+         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**
