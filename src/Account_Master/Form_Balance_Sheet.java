@@ -38,7 +38,6 @@ public class Form_Balance_Sheet extends javax.swing.JFrame {
         jPanel12 = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jTextField17 = new javax.swing.JTextField();
@@ -59,23 +58,15 @@ public class Form_Balance_Sheet extends javax.swing.JFrame {
 
         jLabel12.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("Account  Ledger(Graph)");
-
-        jLabel13.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("Select From Date & To Date");
+        jLabel12.setText("Balance Sheet");
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel13Layout.createSequentialGroup()
-                .addGap(167, 167, 167)
-                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel12)
-                    .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(jLabel13)))
+                .addGap(199, 199, 199)
+                .addComponent(jLabel12)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
@@ -83,9 +74,7 @@ public class Form_Balance_Sheet extends javax.swing.JFrame {
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel12)
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel13)
-                .addContainerGap())
+                .addContainerGap(29, Short.MAX_VALUE))
         );
 
         jLabel35.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
@@ -257,7 +246,6 @@ public class Form_Balance_Sheet extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel37;

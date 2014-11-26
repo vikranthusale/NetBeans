@@ -64,7 +64,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel2" pref="466" max="32767" attributes="0"/>
+                  <Component id="jPanel2" pref="488" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -151,21 +151,18 @@
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Component id="jComboBox2" min="-2" pref="385" max="-2" attributes="0"/>
                                   <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                              <Component id="jLabel37" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel24" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel23" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
-                                              </Group>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel37" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel24" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel23" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
@@ -175,9 +172,14 @@
                                           <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                                               <Component id="jComboBox4" min="-2" pref="134" max="-2" attributes="0"/>
                                               <Component id="jComboBox3" min="-2" pref="134" max="-2" attributes="0"/>
-                                              <Component id="jComboBox5" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                                      <Component id="jComboBox5" min="-2" pref="134" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="251" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -242,11 +244,12 @@
                               <Component id="jComboBox4" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           </Group>
                       </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jComboBox5" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                       <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
