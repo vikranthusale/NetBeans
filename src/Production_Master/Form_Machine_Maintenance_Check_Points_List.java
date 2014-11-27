@@ -144,6 +144,7 @@ public class Form_Machine_Maintenance_Check_Points_List extends javax.swing.JFra
                 "Sr No.", "Date Of Entry", "Machine Name", "Machine Code", "Peventive Check To Be Carried Out", "Location", "Frequency", "Tools/Equipment To Be Used", "Start Date", "Actual Date Of Entry", "Actual Time ", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);
@@ -163,8 +164,7 @@ public class Form_Machine_Maintenance_Check_Points_List extends javax.swing.JFra
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 526, Short.MAX_VALUE))
         );
 
         pack();

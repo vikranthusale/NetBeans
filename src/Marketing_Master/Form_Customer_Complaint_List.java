@@ -144,6 +144,7 @@ public class Form_Customer_Complaint_List extends javax.swing.JFrame {
                 "Complaint No.", "Date Of Complaint", "Customer Name", "Customer Representative", "Our Inv No.", "Product Name", "Product Code", "Drawing No.", "Rev No.", "Specified", "Telephone No.", "Qty", "Debit Amount(Rs.)", "Inv No.", "Correction Taken", "Responsbility", "Disposition Status", "Corective Action", "Responsbility C Action", "Target Date ", "Root Cause", "CA Completion Status", "Completion Date", "Effectiveness CA", "Actual Date Of Entry", "Actual Time ", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jTable2.setMinimumSize(new java.awt.Dimension(3470, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1200, 400));
@@ -200,8 +201,8 @@ public class Form_Customer_Complaint_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE)
+                .addGap(1, 1, 1))
         );
 
         pack();

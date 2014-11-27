@@ -93,6 +93,7 @@ public class Form_Daily_Production_Inprocess_Inspection_List extends javax.swing
                 "Date Of Production", "Product Name", "Drawing No.", "Rev. No.", "W.O.No.", "Sr.No.", "Process", "Machine No.", "Operator Name", "Manufactured  Qty", "Ok Qty", "Rejected Qty", "Reworked Qty", "Scrapped Qty", "Reason Of Rework/Scrapped", "Root Cause Of NC", "Reason For Less Manufacturing", "Start Time", "End Time", "Method", "Obs 1", "Obs 2", "Obs 3", "Obs 4", "Obs 5", "Obs 6", "Obs 7", "Obs 8", "Obs 9", "Obs 10", "Remark", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);
@@ -165,8 +166,7 @@ public class Form_Daily_Production_Inprocess_Inspection_List extends javax.swing
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 498, Short.MAX_VALUE))
         );
 
         pack();

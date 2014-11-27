@@ -55,9 +55,10 @@ public class Form_Planning_of_Product_Realization_List extends javax.swing.JFram
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Code No.", "Customer Identified", "Product Title", "Quality Objective", "Requirements of the product", "New Processes required", "New documents required", "New resources required for new project/product ", "New verification points and their acceptance Criteria", "New monitoring points and their acceptance criteria", "New inspection and test activities and acceptance criteria", "New records to be maintained and its format", "comments", "Date of Entry", "Actual Date of entry", "Title 16Actual Time ", "User"
+                "Code No.", "Customer Identified", "Product Title", "Quality Objective", "Requirements of the product", "New Processes required", "New documents required", "New resources required for new project/product ", "New verification points and their acceptance Criteria", "New monitoring points and their acceptance criteria", "New inspection and test activities and acceptance criteria", "New records to be maintained and its format", "comments", "Date of Entry", "Actual Date of entry", "Actual Time ", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
 
@@ -162,8 +163,7 @@ public class Form_Planning_of_Product_Realization_List extends javax.swing.JFram
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 25, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 453, Short.MAX_VALUE))
         );
 
         pack();

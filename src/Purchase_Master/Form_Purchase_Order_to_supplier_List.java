@@ -146,6 +146,7 @@ public class Form_Purchase_Order_to_supplier_List extends javax.swing.JFrame {
                 "PO. No.", "PO. Date", "Type of PO .", "Supplier Name", "Materia Description", "Technical Specification", "P.O.( Qty Nos.)", "Unit", "Price/Unit", "Order Amount(Rs.)", "Discount(Less)(%)", "Discont Amount(Rs.)", "Sub Total Amount (Rs.)", "Last Delivery Date", "Sale Tax(%)", "Total Sale Tax(Rs)", "Excise Duty(%)", "Total Excise Duty(Rs.)", "Fright", "Fright(%)", "Total Fright(Rs.)", "Grand Total", "Payment Terms", "Dispatched Through", "Special Instruction", "Prepared By", "Approved By", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);
@@ -158,7 +159,7 @@ public class Form_Purchase_Order_to_supplier_List extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 696, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -168,8 +169,7 @@ public class Form_Purchase_Order_to_supplier_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 534, Short.MAX_VALUE))
         );
 
         pack();
