@@ -134,11 +134,11 @@ public class Form_Review_Job_Work_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"5512", "KOSO India Pvt Ltd", "PI523", "18/06/2011", "S123", "18/06/2011", "9855233", "18/06/2011", "NA", "Split Coupling G399", "B030", "B030", "0", "1", "1", "1", "1", "0", "0", "0", "0", "1", "11/12/2012", "11/12/2012", "12:15:03 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                " Sr.No.", "Customer  Name", "Customer 'PO' No.", "Customer 'PO' Date", "Ex. Ch.(CENVAT) No.", "Ex. Ch.(CENVAT) Date.", "'Production Order' No", "'Production Order' Date", "Project No.", "Product Name", "Product Code", "Drawing No.", "Rev.No.", "Customer Order Qty.", "Challan Qty.", "Actual Received Qty.", "ok Qty.", "Initial Rejected Qty.", "Under Deviation Qty.", "Rejected Qty.", "U.D.& Rejection Reason", "Final ok Qty.", "Delivery date", "Actual Date of Entry", "Actual Time", "Title 26"
+                " Sr.No.", "Customer  Name", "Customer 'PO' No.", "Customer 'PO' Date", "Ex. Ch.(CENVAT) No.", "Ex. Ch.(CENVAT) Date.", "'Production Order' No", "'Production Order' Date", "Project No.", "Product Name", "Product Code", "Drawing No.", "Rev.No.", "Customer Order Qty.", "Challan Qty.", "Actual Received Qty.", "ok Qty.", "Initial Rejected Qty.", "Under Deviation Qty.", "Rejected Qty.", "U.D.& Rejection Reason", "Final ok Qty.", "Delivery date", "Actual Date of Entry", "Actual Time", "User"
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);

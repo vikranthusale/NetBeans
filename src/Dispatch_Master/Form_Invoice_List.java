@@ -135,8 +135,8 @@ public class Form_Invoice_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+                {"INV/14-15/456", "12/11/2012", "CH/14-15/1875", "789632", "KOSO India Pvt Ltd", "Guide M/c 3x2 1500 50", "BE30434", "BE30434", "0", "1", "326", "326", "12.5", "1173.00", "9387.00", "10560.00", "12/11/2012", null, null},
+                {null, null, null, null, null, "", null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
                 "Invoice  No.", "Invoice  Date", "Challan No", "PO.No", "Customer Name", "Product Name", "Product Code", "Drawing  No", "Rev. No", " Qty.(Nos.)", "Rate(Rs.)", "Amount(Rs.)", "VAT(%)", "Total VAT(Rs.)", "Total Amount(Rs.)", "Grand Total(Rs.)", "Date Of Entry", "Actual Time", "User"

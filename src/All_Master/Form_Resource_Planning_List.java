@@ -135,13 +135,13 @@ public class Form_Resource_Planning_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null}
+                {"1", "10/05/2011", "Printer", "1", "For Taking Challans ", "Sitaram Nishad", "Deelip Savkare", "28/09/2011", "NO", "01-07-2012", "07/01/2012", "12:06:15 PM", "Admin"},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Sr No.", "Identified On Date", "Resource Description", "Qty", "Purpose", "Identified By", "Completion Responsbility"
+                "Sr No.", "Identified On Date", "Resource Description", "Qty", "Purpose", "Identified By", "Completion Responsbility", "Target Date", "Completion Status", "Completion Date", "Date Of Entry", "Actual Time", "User"
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);

@@ -140,7 +140,7 @@ public class Form_Received_Cash_Cheque_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
+                {"7", "12/12/2012", "KOSo PVt Ltd", "5366", "0", "Ch.No.:546", "11/03/2012", "12:05:12 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null}
             },
             new String [] {

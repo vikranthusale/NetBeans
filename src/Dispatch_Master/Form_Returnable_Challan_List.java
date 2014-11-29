@@ -137,7 +137,7 @@ public class Form_Returnable_Challan_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
+                {"1", "RC-1", "Nsk Industries", "Nasik ", "Drawing No:- 218/2599", "wirecutting", "12/11/2012", "11:12:05 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null}
             },
             new String [] {

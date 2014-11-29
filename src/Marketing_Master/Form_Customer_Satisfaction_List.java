@@ -138,7 +138,7 @@ public class Form_Customer_Satisfaction_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"1", "KOSO India Pvt Ltd", "Apr.", "2010", "Mar", "2011", "15/01/2011", "10", "9", "2", "5", "9", "8", "5", "8", "78", "85", "yes", ".", "12/11/2012", "11:12:00 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

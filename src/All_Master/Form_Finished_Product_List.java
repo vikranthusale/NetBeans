@@ -133,13 +133,13 @@ public class Form_Finished_Product_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null}
+                {"Plug M/c", "BH2599", "BH2599", "0", "D:\new.jpg", "", null, "No.", "Supplier By Customer", "As Per Drawing", "Gbss", "28/11/2011", "12/11/2011", "12.18.00", "Admin"},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Product Name", "Product Code", "Drawing No.", "Revision No.", "Attach Drawing Here 1", "Attach Drawing Here 2", "Attach Drawing Here 3"
+                "Product Name", "Product Code", "Drawing No.", "Revision No.", "Attach Drawing Here 1", "Attach Drawing Here 2", "Attach Drawing Here 3", "Unit Of Qty.", "Basic Raw Material", "Technical Specification", "Customer Name", "Date Of Entry", "Actual Date Of Entry", "Actual Time", "User"
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);

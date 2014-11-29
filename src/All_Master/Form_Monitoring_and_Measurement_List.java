@@ -138,8 +138,8 @@ public class Form_Monitoring_and_Measurement_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+                {"DIAL CALIPER", "01", "0 To 200 MM", "0.02", "MITUTOYO", "30/11/2011", "No", "25/04/2014", "12", "24/4/2015", "B.s.k India", "CRO1466", "OK", "", null, "30/11/2011", "12/12/2011", "9:33:21 PM", "Admin"},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "", null}
             },
             new String [] {
                 "Equipment Description", "Equipment No.", "Range/Size", "Least Count", "Make", "Date Of Purchase", "Whether Supplied By Customer", "Date Of  Calibration", "Calibration Frequency(Month)", "Due  Date of Calibration", "Calibration Agency", "Calibration  Certificate No.", "Equipment  Status", "Attach  Certificate here 1", "Attach Certificate here2", "Date of Entry", "Actual Date of Entry", "Actual  Time", "User"

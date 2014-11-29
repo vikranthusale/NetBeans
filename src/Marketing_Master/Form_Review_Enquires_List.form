@@ -205,26 +205,86 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="20" rowCount="2">
-                <Column editable="true" title="Enquiry Sr.No." type="java.lang.Object"/>
-                <Column editable="true" title="Cust. Ref. No." type="java.lang.Object"/>
-                <Column editable="true" title="Enquiry  date" type="java.lang.Object"/>
-                <Column editable="true" title="Customer  Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product  Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product   Code" type="java.lang.Object"/>
-                <Column editable="true" title="Technical Specifications" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing  No." type="java.lang.Object"/>
-                <Column editable="true" title="Rev. No." type="java.lang.Object"/>
-                <Column editable="true" title="Material" type="java.lang.Object"/>
-                <Column editable="true" title="Tentative order  Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Process  to be carried out" type="java.lang.Object"/>
-                <Column editable="true" title="Sample  Submission  Date" type="java.lang.Object"/>
-                <Column editable="true" title="Quotation  Submission  Date" type="java.lang.Object"/>
-                <Column editable="true" title="VAT(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Transport  Mode" type="java.lang.Object"/>
-                <Column editable="true" title="Fright  Payment" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Date of entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Enquiry Sr.No." type="java.lang.Object">
+                  <Data value="6046"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Cust. Ref. No." type="java.lang.Object">
+                  <Data value="6923"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Enquiry  date" type="java.lang.Object">
+                  <Data value="17/04/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer  Name" type="java.lang.Object">
+                  <Data value="KOSO India Pvt Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product  Name" type="java.lang.Object">
+                  <Data value="Guide M/c 3x2 1500"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product   Code" type="java.lang.Object">
+                  <Data value="BE030"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Technical Specifications" type="java.lang.Object">
+                  <Data value="As Per Drwaing"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Drawing  No." type="java.lang.Object">
+                  <Data value="BE030"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rev. No." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Material" type="java.lang.Object">
+                  <Data value="Supplied By customer"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Tentative order  Qty." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Process  to be carried out" type="java.lang.Object">
+                  <Data value="Job Work"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Sample  Submission  Date" type="java.lang.Object">
+                  <Data value="19/4/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Quotation  Submission  Date" type="java.lang.Object">
+                  <Data value="20/4/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="VAT(%)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Transport  Mode" type="java.lang.Object">
+                  <Data value="By Customer"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Fright  Payment" type="java.lang.Object">
+                  <Data value="To be Paid By Customer"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Date of entry" type="java.lang.Object">
+                  <Data value="19/11/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Time" type="java.lang.Object">
+                  <Data value="11:05:0 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

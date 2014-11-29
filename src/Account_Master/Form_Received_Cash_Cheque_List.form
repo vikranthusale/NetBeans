@@ -205,15 +205,42 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="9" rowCount="2">
-                <Column editable="true" title="Receipt No" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Name" type="java.lang.Object"/>
-                <Column editable="true" title="Credit (Taken)(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Debit (Given)(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Description" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Date Of entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Receipt No" type="java.lang.Object">
+                  <Data value="7"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of Entry" type="java.lang.Object">
+                  <Data value="12/12/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Name" type="java.lang.Object">
+                  <Data value="KOSo PVt Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Credit (Taken)(Rs.)" type="java.lang.Object">
+                  <Data value="5366"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Debit (Given)(Rs.)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Description" type="java.lang.Object">
+                  <Data value="Ch.No.:546"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Date Of entry" type="java.lang.Object">
+                  <Data value="11/03/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="12:05:12 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

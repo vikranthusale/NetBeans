@@ -206,28 +206,94 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="22" rowCount="2">
-                <Column editable="true" title="Feedback Sr.No" type="java.lang.Object"/>
-                <Column editable="true" title="Customer Name" type="java.lang.Object"/>
-                <Column editable="true" title="Feedback for the Period(From month)" type="java.lang.Object"/>
-                <Column editable="true" title="Feedback for the Period(From year)" type="java.lang.Object"/>
-                <Column editable="true" title="Feedback  to  month" type="java.lang.Object"/>
-                <Column editable="true" title="Feedback  to  year" type="java.lang.Object"/>
-                <Column editable="true" title="Date of From receipts" type="java.lang.Object"/>
-                <Column editable="true" title="1. Products meet current Requirement &amp; Expectation" type="java.lang.Object"/>
-                <Column editable="true" title="2. Products Performance/Functional Criteris." type="java.lang.Object"/>
-                <Column editable="true" title="3.Products meet condition at the time of Delivery" type="java.lang.Object"/>
-                <Column editable="true" title="4. Delivery Performance against your Urgency" type="java.lang.Object"/>
-                <Column editable="true" title="5.Cost as compair to others" type="java.lang.Object"/>
-                <Column editable="true" title="6.Response to customer complaints/Concern" type="java.lang.Object"/>
-                <Column editable="true" title="7.Our response to your queries" type="java.lang.Object"/>
-                <Column editable="true" title="8.Technical support from our side to you" type="java.lang.Object"/>
-                <Column editable="true" title="Total" type="java.lang.Object"/>
-                <Column editable="true" title="Percentage(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Action plan" type="java.lang.Object"/>
-                <Column editable="true" title="Action Plan" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Feedback Sr.No" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer Name" type="java.lang.Object">
+                  <Data value="KOSO India Pvt Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Feedback for the Period(From month)" type="java.lang.Object">
+                  <Data value="Apr."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Feedback for the Period(From year)" type="java.lang.Object">
+                  <Data value="2010"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Feedback  to  month" type="java.lang.Object">
+                  <Data value="Mar"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Feedback  to  year" type="java.lang.Object">
+                  <Data value="2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date of From receipts" type="java.lang.Object">
+                  <Data value="15/01/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="1. Products meet current Requirement &amp; Expectation" type="java.lang.Object">
+                  <Data value="10"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="2. Products Performance/Functional Criteris." type="java.lang.Object">
+                  <Data value="9"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="3.Products meet condition at the time of Delivery" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="4. Delivery Performance against your Urgency" type="java.lang.Object">
+                  <Data value="5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="5.Cost as compair to others" type="java.lang.Object">
+                  <Data value="9"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="6.Response to customer complaints/Concern" type="java.lang.Object">
+                  <Data value="8"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="7.Our response to your queries" type="java.lang.Object">
+                  <Data value="5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="8.Technical support from our side to you" type="java.lang.Object">
+                  <Data value="8"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total" type="java.lang.Object">
+                  <Data value="78"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Percentage(%)" type="java.lang.Object">
+                  <Data value="85"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Action plan" type="java.lang.Object">
+                  <Data value="yes"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Action Plan" type="java.lang.Object">
+                  <Data value="."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object">
+                  <Data value="12/11/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="11:12:00 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

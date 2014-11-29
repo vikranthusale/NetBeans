@@ -206,25 +206,79 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="19" rowCount="2">
-                <Column editable="true" title="Equipment Description" type="java.lang.Object"/>
-                <Column editable="true" title="Equipment No." type="java.lang.Object"/>
-                <Column editable="true" title="Range/Size" type="java.lang.Object"/>
-                <Column editable="true" title="Least Count" type="java.lang.Object"/>
-                <Column editable="true" title="Make" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Purchase" type="java.lang.Object"/>
-                <Column editable="true" title="Whether Supplied By Customer" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of  Calibration" type="java.lang.Object"/>
-                <Column editable="true" title="Calibration Frequency(Month)" type="java.lang.Object"/>
-                <Column editable="true" title="Due  Date of Calibration" type="java.lang.Object"/>
-                <Column editable="true" title="Calibration Agency" type="java.lang.Object"/>
-                <Column editable="true" title="Calibration  Certificate No." type="java.lang.Object"/>
-                <Column editable="true" title="Equipment  Status" type="java.lang.Object"/>
-                <Column editable="true" title="Attach  Certificate here 1" type="java.lang.Object"/>
+                <Column editable="true" title="Equipment Description" type="java.lang.Object">
+                  <Data value="DIAL CALIPER"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Equipment No." type="java.lang.Object">
+                  <Data value="01"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Range/Size" type="java.lang.Object">
+                  <Data value="0 To 200 MM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Least Count" type="java.lang.Object">
+                  <Data value="0.02"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Make" type="java.lang.Object">
+                  <Data value="MITUTOYO"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of Purchase" type="java.lang.Object">
+                  <Data value="30/11/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Whether Supplied By Customer" type="java.lang.Object">
+                  <Data value="No"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of  Calibration" type="java.lang.Object">
+                  <Data value="25/04/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Calibration Frequency(Month)" type="java.lang.Object">
+                  <Data value="12"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Due  Date of Calibration" type="java.lang.Object">
+                  <Data value="24/4/2015"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Calibration Agency" type="java.lang.Object">
+                  <Data value="B.s.k India"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Calibration  Certificate No." type="java.lang.Object">
+                  <Data value="CRO1466"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Equipment  Status" type="java.lang.Object">
+                  <Data value="OK"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Attach  Certificate here 1" type="java.lang.Object">
+                  <Data value=""/>
+                  <Data value="null"/>
+                </Column>
                 <Column editable="true" title="Attach Certificate here2" type="java.lang.Object"/>
-                <Column editable="true" title="Date of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Date of Entry" type="java.lang.Object">
+                  <Data value="30/11/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object">
+                  <Data value="12/12/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Time" type="java.lang.Object">
+                  <Data value="9:33:21 PM"/>
+                  <Data value=""/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

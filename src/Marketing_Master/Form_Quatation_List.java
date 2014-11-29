@@ -137,7 +137,7 @@ public class Form_Quatation_List extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"6081", "11/04/2012", "Koso India Pvt. ltd", "6046", "12/04/2012", "12/04/2012", "12/04/2012", "Job Work", "Guide M/c-3x2", "BE456", "0", "BE456", "Supplied By Customer", "Supplied By Customer", "As Per Drwaing", "By Customer", "To Be paid By Customer", "1", "0", "326", "0", "326", "0", "12/04/2011", "13:05:02 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}

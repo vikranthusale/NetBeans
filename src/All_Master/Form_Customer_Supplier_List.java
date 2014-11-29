@@ -21,6 +21,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
     public Form_Customer_Supplier_List() {
         initComponents();
                  this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+                 
 
     }
 
@@ -143,7 +144,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"Customer", "Koso India Pvt.Ltd", "Deepak gangurde", "ASST. Manager", "7896541236", ".", ".", ".", "Nashik-789654", "Ambad", "789654", "789652", "dipak.g@gmail.com", "www.", "7896541236", "89654123695c", "AACCK7896", "6953", "Manufacturer", "0.00", "28/12/2012", "12/12/2011", "12.14.06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

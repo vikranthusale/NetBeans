@@ -202,32 +202,110 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="26" rowCount="2">
-                <Column editable="true" title=" Sr.No." type="java.lang.Object"/>
-                <Column editable="true" title="Customer  Name" type="java.lang.Object"/>
-                <Column editable="true" title="Customer &apos;PO&apos; No." type="java.lang.Object"/>
-                <Column editable="true" title="Customer &apos;PO&apos; Date" type="java.lang.Object"/>
-                <Column editable="true" title="Ex. Ch.(CENVAT) No." type="java.lang.Object"/>
-                <Column editable="true" title="Ex. Ch.(CENVAT) Date." type="java.lang.Object"/>
-                <Column editable="true" title="&apos;Production Order&apos; No" type="java.lang.Object"/>
-                <Column editable="true" title="&apos;Production Order&apos; Date" type="java.lang.Object"/>
-                <Column editable="true" title="Project No." type="java.lang.Object"/>
-                <Column editable="true" title="Product Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product Code" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing No." type="java.lang.Object"/>
-                <Column editable="true" title="Rev.No." type="java.lang.Object"/>
-                <Column editable="true" title="Customer Order Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Challan Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Actual Received Qty." type="java.lang.Object"/>
-                <Column editable="true" title="ok Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Initial Rejected Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Under Deviation Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Rejected Qty." type="java.lang.Object"/>
-                <Column editable="true" title="U.D.&amp; Rejection Reason" type="java.lang.Object"/>
-                <Column editable="true" title="Final ok Qty." type="java.lang.Object"/>
-                <Column editable="true" title="Delivery date" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="Title 26" type="java.lang.Object"/>
+                <Column editable="true" title=" Sr.No." type="java.lang.Object">
+                  <Data value="5512"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer  Name" type="java.lang.Object">
+                  <Data value="KOSO India Pvt Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer &apos;PO&apos; No." type="java.lang.Object">
+                  <Data value="PI523"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer &apos;PO&apos; Date" type="java.lang.Object">
+                  <Data value="18/06/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Ex. Ch.(CENVAT) No." type="java.lang.Object">
+                  <Data value="S123"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Ex. Ch.(CENVAT) Date." type="java.lang.Object">
+                  <Data value="18/06/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="&apos;Production Order&apos; No" type="java.lang.Object">
+                  <Data value="9855233"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="&apos;Production Order&apos; Date" type="java.lang.Object">
+                  <Data value="18/06/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Project No." type="java.lang.Object">
+                  <Data value="NA"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Name" type="java.lang.Object">
+                  <Data value="Split Coupling G399"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Code" type="java.lang.Object">
+                  <Data value="B030"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Drawing No." type="java.lang.Object">
+                  <Data value="B030"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rev.No." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer Order Qty." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Challan Qty." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Received Qty." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="ok Qty." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Initial Rejected Qty." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Under Deviation Qty." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rejected Qty." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="U.D.&amp; Rejection Reason" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Final ok Qty." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Delivery date" type="java.lang.Object">
+                  <Data value="11/12/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date of Entry" type="java.lang.Object">
+                  <Data value="11/12/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="12:15:03 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

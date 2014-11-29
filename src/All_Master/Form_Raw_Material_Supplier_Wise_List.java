@@ -48,7 +48,7 @@ public class Form_Raw_Material_Supplier_Wise_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null},
+                {"Ms Bright", "30x30", "kg.", "A.k.Tools", "08/06/2012", "16/01/2012", "1:59:00 Am", "Admin"},
                 {null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null}

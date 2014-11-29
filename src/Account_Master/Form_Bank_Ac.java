@@ -10,6 +10,7 @@ package Account_Master;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import javax.swing.JFrame;
+import javax.swing.SwingConstants;
 
 /**
  *
@@ -25,6 +26,8 @@ public class Form_Bank_Ac extends javax.swing.JFrame {
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         this.setLayout(new GridBagLayout());
         this.add(jPanel12, new GridBagConstraints());
+        jLabel12.setHorizontalAlignment(SwingConstants.CENTER);  
+
     }
 
     /**

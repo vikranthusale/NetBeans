@@ -206,32 +206,162 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="26" rowCount="4">
-                <Column editable="true" title="Quatation Sr No." type="java.lang.Object"/>
-                <Column editable="true" title="Quatation Date" type="java.lang.Object"/>
-                <Column editable="true" title="Customer Name" type="java.lang.Object"/>
-                <Column editable="true" title="Enquiry Ref No" type="java.lang.Object"/>
-                <Column editable="true" title="Enquiry Date" type="java.lang.Object"/>
-                <Column editable="true" title="Quatation Submission Date" type="java.lang.Object"/>
-                <Column editable="true" title="Sample Submission Delivery Date" type="java.lang.Object"/>
-                <Column editable="true" title="Process To Be Carried Out" type="java.lang.Object"/>
-                <Column editable="true" title="Product Name" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing No." type="java.lang.Object"/>
-                <Column editable="true" title="Rev No" type="java.lang.Object"/>
-                <Column editable="true" title="Part Code" type="java.lang.Object"/>
-                <Column editable="true" title="Material mentioned in Enquiry" type="java.lang.Object"/>
-                <Column editable="true" title="Material Mentioned In Quatation" type="java.lang.Object"/>
-                <Column editable="true" title="Technical Specification" type="java.lang.Object"/>
-                <Column editable="true" title="Transporters Mode" type="java.lang.Object"/>
-                <Column editable="true" title="Fright Payment" type="java.lang.Object"/>
-                <Column editable="true" title="Tentative Order Qty" type="java.lang.Object"/>
-                <Column editable="true" title="Material Cost(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Labour/Mfg Cost(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Packing &amp; Forwarding  Cost(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Total Cost(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Quatation Validation Days" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Quatation Sr No." type="java.lang.Object">
+                  <Data value="6081"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Quatation Date" type="java.lang.Object">
+                  <Data value="11/04/2012"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer Name" type="java.lang.Object">
+                  <Data value="Koso India Pvt. ltd"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Enquiry Ref No" type="java.lang.Object">
+                  <Data value="6046"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Enquiry Date" type="java.lang.Object">
+                  <Data value="12/04/2012"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Quatation Submission Date" type="java.lang.Object">
+                  <Data value="12/04/2012"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Sample Submission Delivery Date" type="java.lang.Object">
+                  <Data value="12/04/2012"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Process To Be Carried Out" type="java.lang.Object">
+                  <Data value="Job Work"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Name" type="java.lang.Object">
+                  <Data value="Guide M/c-3x2"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Drawing No." type="java.lang.Object">
+                  <Data value="BE456"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rev No" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Part Code" type="java.lang.Object">
+                  <Data value="BE456"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Material mentioned in Enquiry" type="java.lang.Object">
+                  <Data value="Supplied By Customer"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Material Mentioned In Quatation" type="java.lang.Object">
+                  <Data value="Supplied By Customer"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Technical Specification" type="java.lang.Object">
+                  <Data value="As Per Drwaing"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Transporters Mode" type="java.lang.Object">
+                  <Data value="By Customer"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Fright Payment" type="java.lang.Object">
+                  <Data value="To Be paid By Customer"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Tentative Order Qty" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Material Cost(Rs.)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Labour/Mfg Cost(Rs.)" type="java.lang.Object">
+                  <Data value="326"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Packing &amp; Forwarding  Cost(Rs.)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total Cost(Rs.)" type="java.lang.Object">
+                  <Data value="326"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Quatation Validation Days" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object">
+                  <Data value="12/04/2011"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="13:05:02 PM"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

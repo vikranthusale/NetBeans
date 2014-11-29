@@ -197,23 +197,74 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="19" rowCount="2">
-                <Column editable="true" title="Invoice  No." type="java.lang.Object"/>
-                <Column editable="true" title="Invoice  Date" type="java.lang.Object"/>
-                <Column editable="true" title="Challan No" type="java.lang.Object"/>
-                <Column editable="true" title="PO.No" type="java.lang.Object"/>
-                <Column editable="true" title="Customer Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product Code" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing  No" type="java.lang.Object"/>
-                <Column editable="true" title="Rev. No" type="java.lang.Object"/>
-                <Column editable="true" title=" Qty.(Nos.)" type="java.lang.Object"/>
-                <Column editable="true" title="Rate(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Amount(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="VAT(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Total VAT(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Total Amount(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Grand Total(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Entry" type="java.lang.Object"/>
+                <Column editable="true" title="Invoice  No." type="java.lang.Object">
+                  <Data value="INV/14-15/456"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Invoice  Date" type="java.lang.Object">
+                  <Data value="12/11/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Challan No" type="java.lang.Object">
+                  <Data value="CH/14-15/1875"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="PO.No" type="java.lang.Object">
+                  <Data value="789632"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer Name" type="java.lang.Object">
+                  <Data value="KOSO India Pvt Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Name" type="java.lang.Object">
+                  <Data value="Guide M/c 3x2 1500 50"/>
+                  <Data value=""/>
+                </Column>
+                <Column editable="true" title="Product Code" type="java.lang.Object">
+                  <Data value="BE30434"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Drawing  No" type="java.lang.Object">
+                  <Data value="BE30434"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rev. No" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title=" Qty.(Nos.)" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rate(Rs.)" type="java.lang.Object">
+                  <Data value="326"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Amount(Rs.)" type="java.lang.Object">
+                  <Data value="326"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="VAT(%)" type="java.lang.Object">
+                  <Data value="12.5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total VAT(Rs.)" type="java.lang.Object">
+                  <Data value="1173.00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total Amount(Rs.)" type="java.lang.Object">
+                  <Data value="9387.00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Grand Total(Rs.)" type="java.lang.Object">
+                  <Data value="10560.00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of Entry" type="java.lang.Object">
+                  <Data value="12/11/2012"/>
+                  <Data value="null"/>
+                </Column>
                 <Column editable="true" title="Actual Time" type="java.lang.Object"/>
                 <Column editable="true" title="User" type="java.lang.Object"/>
               </Table>

@@ -135,7 +135,7 @@ public class Form_Challan_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"Ch/14-15/1566", "19/06/2012", "78956632", "P1S0266", "5840", "KOSO India Pvt Ltd", "Guide M/c 3x2 1500 50", "BE030566", "0", "1", "0", "19/06/2012", "12:05:00 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

@@ -204,30 +204,102 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="24" rowCount="2">
-                <Column editable="true" title="Category" type="java.lang.Object"/>
-                <Column editable="true" title="Name Of Company" type="java.lang.Object"/>
-                <Column editable="true" title="Company representative1" type="java.lang.Object"/>
-                <Column editable="true" title="Designation1" type="java.lang.Object"/>
-                <Column editable="true" title="Mobile No1" type="java.lang.Object"/>
-                <Column editable="true" title="Company representative1" type="java.lang.Object"/>
-                <Column editable="true" title="Designation2" type="java.lang.Object"/>
-                <Column editable="true" title="Mobile No2" type="java.lang.Object"/>
-                <Column editable="true" title="Factory Address" type="java.lang.Object"/>
-                <Column editable="true" title="office Address" type="java.lang.Object"/>
-                <Column editable="true" title="Telephone No." type="java.lang.Object"/>
-                <Column editable="true" title="Fax No." type="java.lang.Object"/>
-                <Column editable="true" title="Email Id" type="java.lang.Object"/>
-                <Column editable="true" title="Web Site" type="java.lang.Object"/>
-                <Column editable="true" title="Vat Tin No." type="java.lang.Object"/>
-                <Column editable="true" title="CST  Tin  No." type="java.lang.Object"/>
-                <Column editable="true" title="ECC  No." type="java.lang.Object"/>
-                <Column editable="true" title="Vendor/Supplier code assigned" type="java.lang.Object"/>
-                <Column editable="true" title="Service Category" type="java.lang.Object"/>
-                <Column editable="true" title="Opening Bal" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Date Of entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Category" type="java.lang.Object">
+                  <Data value="Customer"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Name Of Company" type="java.lang.Object">
+                  <Data value="Koso India Pvt.Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Company representative1" type="java.lang.Object">
+                  <Data value="Deepak gangurde"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Designation1" type="java.lang.Object">
+                  <Data value="ASST. Manager"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Mobile No1" type="java.lang.Object">
+                  <Data value="7896541236"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Company representative1" type="java.lang.Object">
+                  <Data value="."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Designation2" type="java.lang.Object">
+                  <Data value="."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Mobile No2" type="java.lang.Object">
+                  <Data value="."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Factory Address" type="java.lang.Object">
+                  <Data value="Nashik-789654"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="office Address" type="java.lang.Object">
+                  <Data value="Ambad"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Telephone No." type="java.lang.Object">
+                  <Data value="789654"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Fax No." type="java.lang.Object">
+                  <Data value="789652"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Email Id" type="java.lang.Object">
+                  <Data value="dipak.g@gmail.com"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Web Site" type="java.lang.Object">
+                  <Data value="www."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Vat Tin No." type="java.lang.Object">
+                  <Data value="7896541236"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="CST  Tin  No." type="java.lang.Object">
+                  <Data value="89654123695c"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="ECC  No." type="java.lang.Object">
+                  <Data value="AACCK7896"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Vendor/Supplier code assigned" type="java.lang.Object">
+                  <Data value="6953"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Service Category" type="java.lang.Object">
+                  <Data value="Manufacturer"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Opening Bal" type="java.lang.Object">
+                  <Data value="0.00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of entry" type="java.lang.Object">
+                  <Data value="28/12/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Date Of entry" type="java.lang.Object">
+                  <Data value="12/12/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="12.14.06 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">

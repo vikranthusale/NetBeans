@@ -138,7 +138,7 @@ public class Form_Machine_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null},
+                {"CYLINDRICAL GRINDER-01", "M1", "TEKSOL", "10/2008", "250,600 MM", "28-10-2011", "NO", "28-11-2011", "12:23:00 PM", "Admin", null},
                 {null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

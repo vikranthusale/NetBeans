@@ -202,33 +202,114 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="27" rowCount="2">
-                <Column editable="true" title="Sr No." type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Inspection" type="java.lang.Object"/>
-                <Column editable="true" title="WO No." type="java.lang.Object"/>
-                <Column editable="true" title="Product Name" type="java.lang.Object"/>
-                <Column editable="true" title="Sr No." type="java.lang.Object"/>
-                <Column editable="true" title="Parameter (Dim.)" type="java.lang.Object"/>
-                <Column editable="true" title="Mean Value" type="java.lang.Object"/>
-                <Column editable="true" title="Unit" type="java.lang.Object"/>
-                <Column editable="true" title="Lower Limit" type="java.lang.Object"/>
-                <Column editable="true" title="Upper Limit" type="java.lang.Object"/>
-                <Column editable="true" title="Inspection Qty.(Nos.)" type="java.lang.Object"/>
-                <Column editable="true" title="OK Qty.(Nos.)" type="java.lang.Object"/>
-                <Column editable="true" title="Rejection Reason" type="java.lang.Object"/>
-                <Column editable="true" title="Method" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 1" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 2" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 3" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 4" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 5" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 6" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 7" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 8" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 9" type="java.lang.Object"/>
-                <Column editable="true" title="Obs 10" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time " type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Sr No." type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="6128"/>
+                </Column>
+                <Column editable="true" title="Date Of Inspection" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="19/06/2014"/>
+                </Column>
+                <Column editable="true" title="WO No." type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="5862"/>
+                </Column>
+                <Column editable="true" title="Product Name" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="Guide M/c 3x2 1500 50"/>
+                </Column>
+                <Column editable="true" title="Sr No." type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="1"/>
+                </Column>
+                <Column editable="true" title="Parameter (Dim.)" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="1st SIDE IN GRIND"/>
+                </Column>
+                <Column editable="true" title="Mean Value" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="50.823"/>
+                </Column>
+                <Column editable="true" title="Unit" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="mm"/>
+                </Column>
+                <Column editable="true" title="Lower Limit" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="50.803"/>
+                </Column>
+                <Column editable="true" title="Upper Limit" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="50.843"/>
+                </Column>
+                <Column editable="true" title="Inspection Qty.(Nos.)" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="12"/>
+                </Column>
+                <Column editable="true" title="OK Qty.(Nos.)" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="12"/>
+                </Column>
+                <Column editable="true" title="Rejection Reason" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="0"/>
+                </Column>
+                <Column editable="true" title="Method" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="Visual"/>
+                </Column>
+                <Column editable="true" title="Obs 1" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 2" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 3" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 4" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 5" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 6" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 7" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 8" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 9" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Obs 10" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="OK"/>
+                </Column>
+                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="19/06/2011"/>
+                </Column>
+                <Column editable="true" title="Actual Time " type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="11:05:03 PM"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="null"/>
+                  <Data value="Admin"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

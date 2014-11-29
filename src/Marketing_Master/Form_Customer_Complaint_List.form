@@ -206,34 +206,111 @@
         <Component class="javax.swing.JTable" name="jTable2">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="27" rowCount="2">
-                <Column editable="true" title="Complaint No." type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Complaint" type="java.lang.Object"/>
-                <Column editable="true" title="Customer Name" type="java.lang.Object"/>
-                <Column editable="true" title="Customer Representative" type="java.lang.Object"/>
-                <Column editable="true" title="Our Inv No." type="java.lang.Object"/>
-                <Column editable="true" title="Product Name" type="java.lang.Object"/>
-                <Column editable="true" title="Product Code" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing No." type="java.lang.Object"/>
-                <Column editable="true" title="Rev No." type="java.lang.Object"/>
-                <Column editable="true" title="Specified" type="java.lang.Object"/>
-                <Column editable="true" title="Telephone No." type="java.lang.Object"/>
-                <Column editable="true" title="Qty" type="java.lang.Object"/>
-                <Column editable="true" title="Debit Amount(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Inv No." type="java.lang.Object"/>
-                <Column editable="true" title="Correction Taken" type="java.lang.Object"/>
-                <Column editable="true" title="Responsbility" type="java.lang.Object"/>
-                <Column editable="true" title="Disposition Status" type="java.lang.Object"/>
-                <Column editable="true" title="Corective Action" type="java.lang.Object"/>
-                <Column editable="true" title="Responsbility C Action" type="java.lang.Object"/>
-                <Column editable="true" title="Target Date " type="java.lang.Object"/>
-                <Column editable="true" title="Root Cause" type="java.lang.Object"/>
-                <Column editable="true" title="CA Completion Status" type="java.lang.Object"/>
-                <Column editable="true" title="Completion Date" type="java.lang.Object"/>
-                <Column editable="true" title="Effectiveness CA" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time " type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+              <Table columnCount="26" rowCount="2">
+                <Column editable="true" title="Complaint No." type="java.lang.Object">
+                  <Data value="201223"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of Complaint" type="java.lang.Object">
+                  <Data value="15/12/2011"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer Name" type="java.lang.Object">
+                  <Data value="KOSO India Pvt Ltd"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Customer Representative" type="java.lang.Object">
+                  <Data value="Deepak Jadhav"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Our Inv No." type="java.lang.Object">
+                  <Data value="429"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Name" type="java.lang.Object">
+                  <Data value="Plug"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Code" type="java.lang.Object">
+                  <Data value="B233"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Drawing No." type="java.lang.Object">
+                  <Data value="B233"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rev No." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Specified" type="java.lang.Object">
+                  <Data value="Specified: ID Oversize"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Qty" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Debit Amount(Rs.)" type="java.lang.Object">
+                  <Data value="440"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Inv No." type="java.lang.Object">
+                  <Data value="429"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Correction Taken" type="java.lang.Object">
+                  <Data value="Roler Finish Assembly"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Responsbility" type="java.lang.Object">
+                  <Data value="Deepak Jadhav"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Disposition Status" type="java.lang.Object">
+                  <Data value="Ok"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Corective Action" type="java.lang.Object">
+                  <Data value="Assembly"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Responsbility C Action" type="java.lang.Object">
+                  <Data value="Deepak Jadhav"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Target Date " type="java.lang.Object">
+                  <Data value="14/11/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Root Cause" type="java.lang.Object">
+                  <Data value="Slot Undersize"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="CA Completion Status" type="java.lang.Object">
+                  <Data value="Completed"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Completion Date" type="java.lang.Object">
+                  <Data value="11/11/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Effectiveness CA" type="java.lang.Object">
+                  <Data value="OK"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object">
+                  <Data value="11/11/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time " type="java.lang.Object">
+                  <Data value="12:15:02 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

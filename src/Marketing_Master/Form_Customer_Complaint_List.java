@@ -137,11 +137,11 @@ public class Form_Customer_Complaint_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+                {"201223", "15/12/2011", "KOSO India Pvt Ltd", "Deepak Jadhav", "429", "Plug", "B233", "B233", "0", "Specified: ID Oversize", "1", "440", "429", "Roler Finish Assembly", "Deepak Jadhav", "Ok", "Assembly", "Deepak Jadhav", "14/11/2012", "Slot Undersize", "Completed", "11/11/2012", "OK", "11/11/2012", "12:15:02 PM", "Admin"},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Complaint No.", "Date Of Complaint", "Customer Name", "Customer Representative", "Our Inv No.", "Product Name", "Product Code", "Drawing No.", "Rev No.", "Specified", "Telephone No.", "Qty", "Debit Amount(Rs.)", "Inv No.", "Correction Taken", "Responsbility", "Disposition Status", "Corective Action", "Responsbility C Action", "Target Date ", "Root Cause", "CA Completion Status", "Completion Date", "Effectiveness CA", "Actual Date Of Entry", "Actual Time ", "User"
+                "Complaint No.", "Date Of Complaint", "Customer Name", "Customer Representative", "Our Inv No.", "Product Name", "Product Code", "Drawing No.", "Rev No.", "Specified", "Qty", "Debit Amount(Rs.)", "Inv No.", "Correction Taken", "Responsbility", "Disposition Status", "Corective Action", "Responsbility C Action", "Target Date ", "Root Cause", "CA Completion Status", "Completion Date", "Effectiveness CA", "Actual Date Of Entry", "Actual Time ", "User"
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);

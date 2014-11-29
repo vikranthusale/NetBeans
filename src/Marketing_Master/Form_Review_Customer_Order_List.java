@@ -138,7 +138,7 @@ public class Form_Review_Customer_Order_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"6191", "PS123", "6081", "11/11/2012", "KOSO India Pvt Ltd", "Guide M/c 3x2", "Job Work", "B3899", "B3899", "0", "As Per Drawing", "1", "323", "326", "By Customer", "To be Paid By Customer", "0", "12/11/2012", "Supplied By Customer", "11/11/2012", "10:15:00 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

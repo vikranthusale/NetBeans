@@ -9,6 +9,7 @@ package Account_Master;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import javax.swing.JFrame;
+import javax.swing.SwingConstants;
 
 /**
  *
@@ -22,10 +23,13 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
     public Form_Bank_Ac_List() {
         initComponents();
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-        // this.setLayout(new GridBagLayout());
-         //this.add(jPanel12, new GridBagConstraints());
-    }
+       // this.setLayout(new GridBagLayout());
+        // this.add(jPanel3, new GridBagConstraints());
+         jLabel1.setHorizontalAlignment(SwingConstants.TRAILING);  
 
+    }
+    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -116,9 +120,9 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(85, 85, 85)
                 .addComponent(jLabel1)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
@@ -140,7 +144,7 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
+                {"123", "11/12/2012", "Bank of Baroda", "25,000", "0", "Ch. no: 25, dated :25/11/2012", "11/11/2012", "05:12:00 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null}
             },
             new String [] {

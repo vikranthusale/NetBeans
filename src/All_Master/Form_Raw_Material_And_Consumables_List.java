@@ -142,7 +142,7 @@ public class Form_Raw_Material_And_Consumables_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
+                {"Carol Solcut Super", "26", "Sushil Enterprises", "Ltr.", "Click On Browse Button", "29/11/2011", "12/12/2011", "5:58:41 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null}

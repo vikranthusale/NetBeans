@@ -138,7 +138,7 @@ public class Form_Required_Skill_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
+                {"1", "Managerial", "26/01/2012", "26/01/2012", "10:26:00 AM", "Admin"},
                 {null, null, null, null, null, null}
             },
             new String [] {

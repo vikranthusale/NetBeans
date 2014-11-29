@@ -133,8 +133,8 @@ public class Form_Processes_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
+                {"1", "P01", "2nd SIDE STEP LENGTH", "28/11/201", "12/12/2011", "12:30:15 PM", "Admin"},
+                {null, null, "", null, null, null, null},
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null}
             },

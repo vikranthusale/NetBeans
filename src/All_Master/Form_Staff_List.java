@@ -139,7 +139,7 @@ public class Form_Staff_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"Savkare", "Deelip", "Mitharam", "CEO", "28-Dec-2006", "1259874563", "I.T.I", "16", "SKILLS", ".", "TOP MGMT", "No", null, null, "28-Nov-2011", "8:25:18 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},

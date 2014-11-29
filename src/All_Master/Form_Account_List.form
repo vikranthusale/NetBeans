@@ -201,14 +201,38 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="8" rowCount="2">
-                <Column editable="true" title="Account Name" type="java.lang.Object"/>
-                <Column editable="true" title="Account Head" type="java.lang.Object"/>
-                <Column editable="true" title="Address" type="java.lang.Object"/>
-                <Column editable="true" title="Phone No." type="java.lang.Object"/>
-                <Column editable="true" title="Opening Bal" type="java.lang.Object"/>
-                <Column editable="true" title="Date of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Account Name" type="java.lang.Object">
+                  <Data value="Cash"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Account Head" type="java.lang.Object">
+                  <Data value="Cash"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Address" type="java.lang.Object">
+                  <Data value="."/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Phone No." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Opening Bal" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date of Entry" type="java.lang.Object">
+                  <Data value="07/07/2012"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Time" type="java.lang.Object">
+                  <Data value="05:15:15 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

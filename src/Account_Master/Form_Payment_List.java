@@ -140,7 +140,7 @@ public class Form_Payment_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
+                {"1", "12/12/2012", "Bank Of Baroda", "25,0000", "0", "Ch.No: 255,dated: 05/03/2012", "12/12/2012", "12/11/2012", "Admin"},
                 {null, null, null, null, null, null, null, null, null}
             },
             new String [] {

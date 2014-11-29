@@ -138,7 +138,7 @@ public class Form_RootCause_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
+                {"1", "Due To Machine Capability", "24/10/2011", "24/10/2011", "2:05:55 PM", "Admin"},
                 {null, null, null, null, null, null}
             },
             new String [] {

@@ -136,7 +136,7 @@ public class Form_Account_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null},
+                {"Cash", "Cash", ".", "0", "0", "07/07/2012", "05:15:15 PM", "Admin"},
                 {null, null, null, null, null, null, null, null}
             },
             new String [] {

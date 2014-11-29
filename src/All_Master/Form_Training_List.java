@@ -135,7 +135,7 @@ public class Form_Training_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
+                {"1", "01/09/2009", "A1", "ISO-9001:2008-Clause Wise", "Dept/Sectional Head", "Admin"},
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null}
