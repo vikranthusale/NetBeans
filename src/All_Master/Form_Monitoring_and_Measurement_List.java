@@ -146,8 +146,8 @@ public class Form_Monitoring_and_Measurement_List extends javax.swing.JFrame {
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable2.setMinimumSize(new java.awt.Dimension(2850, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(2850, 400));
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {

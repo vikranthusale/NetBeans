@@ -151,9 +151,10 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 "Category", "Name Of Company", "Company representative1", "Designation1", "Mobile No1", "Company representative1", "Designation2", "Mobile No2", "Factory Address", "office Address", "Telephone No.", "Fax No.", "Email Id", "Web Site", "Vat Tin No.", "CST  Tin  No.", "ECC  No.", "Vendor/Supplier code assigned", "Service Category", "Opening Bal", "Date Of entry", "Actual  Date Of entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jTable2.setMinimumSize(new java.awt.Dimension(3470, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1000, 500));
+        jTable2.setPreferredSize(new java.awt.Dimension(3500, 500));
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
@@ -249,7 +250,7 @@ public class Form_Customer_Supplier_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE))
         );
 
         pack();

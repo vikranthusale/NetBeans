@@ -134,7 +134,7 @@ public class Form_Review_Customer_Order_List extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPane3.setPreferredSize(new java.awt.Dimension(600, 402));
+        jScrollPane3.setPreferredSize(new java.awt.Dimension(32767, 402));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -142,13 +142,43 @@ public class Form_Review_Customer_Order_List extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                " Sr.No.", "PO. No.", "Quotation Ref No.", "Oreder Date", "Customer  Name", "Product Name", "Order Type", "Product Code", "Drawing. No.", "Rev.No.", "Technical Specification", "Order Qty", "Order Rate Per Unit (Rs.)", "Amount (Rs.)", "Transporters  Mode", "Fright Payment", "Vat %", "Delivery Date", "Material", "Actual Date Of Entry", "Actual  Time", "User"
+                " Sr.No.", "PO. No.", "Quotation Ref No.", "Order Date", "Customer  Name", "Product Name", "Order Type", "Product Code", "Drawing. No.", "Rev.No.", "Technical Specification", "Order Qty", "Order Rate Per Unit (Rs.)", "Amount (Rs.)", "Transporters  Mode", "Fright Payment", "Vat %", "Delivery Date", "Material", "Actual Date Of Entry", "Actual  Time", "User"
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable2.setMinimumSize(new java.awt.Dimension(2147483647, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(3700, 400));
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(0).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(0).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(1).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(1).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(2).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(2).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(14).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(15).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(16).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(17).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(18).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(19).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(20).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(21).setMinWidth(170);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -158,7 +188,7 @@ public class Form_Review_Customer_Order_List extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(

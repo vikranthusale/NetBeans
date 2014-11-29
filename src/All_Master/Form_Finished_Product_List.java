@@ -167,6 +167,30 @@ public class Form_Finished_Product_List extends javax.swing.JFrame {
             jTable2.getColumnModel().getColumn(6).setMinWidth(150);
             jTable2.getColumnModel().getColumn(6).setPreferredWidth(150);
             jTable2.getColumnModel().getColumn(6).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(7).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(7).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(8).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(8).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(9).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(9).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(10).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(10).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(11).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(11).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(12).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(12).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(13).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(13).setMaxWidth(150);
+            jTable2.getColumnModel().getColumn(14).setMinWidth(150);
+            jTable2.getColumnModel().getColumn(14).setPreferredWidth(150);
+            jTable2.getColumnModel().getColumn(14).setMaxWidth(150);
         }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

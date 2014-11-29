@@ -133,7 +133,7 @@ public class Form_Quatation_List extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPane2.setPreferredSize(new java.awt.Dimension(100, 100));
+        jScrollPane2.setPreferredSize(new java.awt.Dimension(32767, 100));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -147,12 +147,88 @@ public class Form_Quatation_List extends javax.swing.JFrame {
             }
         ));
         jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable1.setPreferredSize(new java.awt.Dimension(800, 64));
+        jTable1.setMinimumSize(new java.awt.Dimension(2147483647, 64));
+        jTable1.setPreferredSize(new java.awt.Dimension(4420, 64));
         jScrollPane2.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
-            jTable1.getColumnModel().getColumn(0).setResizable(false);
-            jTable1.getColumnModel().getColumn(1).setResizable(false);
-            jTable1.getColumnModel().getColumn(2).setMinWidth(100);
+            jTable1.getColumnModel().getColumn(0).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(0).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(0).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(1).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(1).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(1).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(2).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(2).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(2).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(3).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(3).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(3).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(4).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(4).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(4).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(5).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(5).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(5).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(6).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(6).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(6).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(7).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(7).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(7).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(8).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(8).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(8).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(9).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(9).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(10).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(10).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(11).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(11).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(12).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(12).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(12).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(13).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(13).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(13).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(14).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(14).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(14).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(15).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(15).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(15).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(16).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(16).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(16).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(17).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(17).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(17).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(18).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(18).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(18).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(19).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(19).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(19).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(20).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(20).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(20).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(21).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(21).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(21).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(22).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(22).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(22).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(23).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(23).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(23).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(24).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(24).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(24).setMaxWidth(170);
+            jTable1.getColumnModel().getColumn(25).setMinWidth(170);
+            jTable1.getColumnModel().getColumn(25).setPreferredWidth(170);
+            jTable1.getColumnModel().getColumn(25).setMaxWidth(170);
         }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -163,7 +239,7 @@ public class Form_Quatation_List extends javax.swing.JFrame {
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1124, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(

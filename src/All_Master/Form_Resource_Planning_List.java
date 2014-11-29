@@ -169,6 +169,24 @@ public class Form_Resource_Planning_List extends javax.swing.JFrame {
             jTable2.getColumnModel().getColumn(6).setMinWidth(170);
             jTable2.getColumnModel().getColumn(6).setPreferredWidth(170);
             jTable2.getColumnModel().getColumn(6).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(7).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(7).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(8).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(8).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(9).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(9).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(10).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(10).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(11).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(11).setMaxWidth(170);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(12).setPreferredWidth(170);
+            jTable2.getColumnModel().getColumn(12).setMaxWidth(170);
         }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

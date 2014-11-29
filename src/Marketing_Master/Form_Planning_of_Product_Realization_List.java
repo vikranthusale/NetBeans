@@ -60,6 +60,25 @@ public class Form_Planning_of_Product_Realization_List extends javax.swing.JFram
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(14).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(15).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(16).setMinWidth(170);
+        }
 
         jPanel3.setBackground(new java.awt.Color(141, 141, 155));
 

@@ -147,10 +147,34 @@ public class Form_Customer_Satisfaction_List extends javax.swing.JFrame {
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jTable2.setMinimumSize(new java.awt.Dimension(3470, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(2000, 400));
+        jTable2.setMinimumSize(new java.awt.Dimension(3600, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(3700, 400));
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(14).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(15).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(16).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(17).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(18).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(19).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(20).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(21).setMinWidth(170);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
