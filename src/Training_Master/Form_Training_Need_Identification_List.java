@@ -137,7 +137,7 @@ public class Form_Training_Need_Identification_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null},
+                {"1", "March 20", "15/04/2014", "How To Plan daily", "Nitin More", "Rajesh Sapkal", "3 Hrs.", "How To Plan daily", "15/04/2014", "2:14:15 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

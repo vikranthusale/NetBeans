@@ -137,7 +137,7 @@ public class Form_Machine_Preventive_Maintenance_List extends javax.swing.JFrame
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"1", "Cylindrical Grinder", "Oil Level Check", "Oil Tank", "Visual", "04/03/2014", "Once in a Week", "04/03/2014", "50", "You Have Not Entered", "Ok", "04/03/2014", "05:45:06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

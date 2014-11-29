@@ -201,31 +201,106 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="26" rowCount="2">
-                <Column editable="true" title="Date Of Planning" type="java.lang.Object"/>
-                <Column editable="true" title="Product Name" type="java.lang.Object"/>
-                <Column editable="true" title="Part Code" type="java.lang.Object"/>
-                <Column editable="true" title="Drawing No." type="java.lang.Object"/>
-                <Column editable="true" title="Rev No." type="java.lang.Object"/>
-                <Column editable="true" title="Sr No." type="java.lang.Object"/>
-                <Column editable="true" title="Parameter (Dim.)" type="java.lang.Object"/>
-                <Column editable="true" title="Working Side" type="java.lang.Object"/>
-                <Column editable="true" title="Method" type="java.lang.Object"/>
-                <Column editable="true" title="Mean Value" type="java.lang.Object"/>
-                <Column editable="true" title="Unit" type="java.lang.Object"/>
-                <Column editable="true" title="Lower Limit" type="java.lang.Object"/>
-                <Column editable="true" title="Upper Limit" type="java.lang.Object"/>
-                <Column editable="true" title="Inspection Instrument" type="java.lang.Object"/>
-                <Column editable="true" title="Process Name" type="java.lang.Object"/>
-                <Column editable="true" title="Process Code" type="java.lang.Object"/>
-                <Column editable="true" title="Machine Name" type="java.lang.Object"/>
-                <Column editable="true" title="Machine  No." type="java.lang.Object"/>
-                <Column editable="true" title="Manufacturing Tool" type="java.lang.Object"/>
-                <Column editable="true" title="Ins. Sample Qty" type="java.lang.Object"/>
-                <Column editable="true" title="Mea. Sample Qty" type="java.lang.Object"/>
-                <Column editable="true" title="Parameter To Be Measured InProcess" type="java.lang.Object"/>
-                <Column editable="true" title="Parameter To Be Measured In Final Inspection" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time " type="java.lang.Object"/>
+                <Column editable="true" title="Date Of Planning" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Product Name" type="java.lang.Object">
+                  <Data value="0.5HF1.56545"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Part Code" type="java.lang.Object">
+                  <Data value="BZ15241"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Drawing No." type="java.lang.Object">
+                  <Data value="BZ15241"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Rev No." type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Sr No." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Parameter (Dim.)" type="java.lang.Object">
+                  <Data value="ID Grinding"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Working Side" type="java.lang.Object">
+                  <Data value="Side 1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Method" type="java.lang.Object">
+                  <Data value="Visual"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Mean Value" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Unit" type="java.lang.Object">
+                  <Data value="mm"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Lower Limit" type="java.lang.Object">
+                  <Data value="00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Upper Limit" type="java.lang.Object">
+                  <Data value="00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Inspection Instrument" type="java.lang.Object">
+                  <Data value="01 Dialed Caliper"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Process Name" type="java.lang.Object">
+                  <Data value="Champer"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Process Code" type="java.lang.Object">
+                  <Data value="P12"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Machine Name" type="java.lang.Object">
+                  <Data value="Cylindrical Grinder"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Machine  No." type="java.lang.Object">
+                  <Data value="M1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Manufacturing Tool" type="java.lang.Object">
+                  <Data value="Threading Tool"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Ins. Sample Qty" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Mea. Sample Qty" type="java.lang.Object">
+                  <Data value="3"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Parameter To Be Measured InProcess" type="java.lang.Object">
+                  <Data value="Yes"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Parameter To Be Measured In Final Inspection" type="java.lang.Object">
+                  <Data value="Yes"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time " type="java.lang.Object">
+                  <Data value="02:15:20 PM"/>
+                  <Data value="null"/>
+                </Column>
                 <Column editable="true" title="User" type="java.lang.Object"/>
               </Table>
             </Property>

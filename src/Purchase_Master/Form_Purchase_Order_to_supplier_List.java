@@ -139,7 +139,7 @@ public class Form_Purchase_Order_to_supplier_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"7", "12/10/2014", "Verbal PO", "Bhavik Metal", "Nylon", "As Per Drawing", "1", "No", "20.00", "20", "0", "0", "20", "12/10/2014", "0", "0", "0", "0", "Not Applicable", "3.5", "208", "6163", "30 Days Credit", "By Hand", "Always Mention Above PC", "Dilip Patil", "Dilip Patil", "12/10/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

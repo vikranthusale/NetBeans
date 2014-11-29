@@ -136,23 +136,74 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="17" rowCount="2">
-                <Column editable="true" title=" Sr.No." type="java.lang.Object"/>
-                <Column editable="true" title="Date of creation" type="java.lang.Object"/>
-                <Column editable="true" title="Quality plan for " type="java.lang.Object"/>
-                <Column editable="true" title="Category/Process" type="java.lang.Object"/>
-                <Column editable="true" title="Parameters" type="java.lang.Object"/>
-                <Column editable="true" title="" type="java.lang.Object"/>
-                <Column editable="true" title="" type="java.lang.Object"/>
-                <Column editable="true" title="Frequency" type="java.lang.Object"/>
-                <Column editable="true" title="Sample Size" type="java.lang.Object"/>
-                <Column editable="true" title="Test Instrument" type="java.lang.Object"/>
-                <Column editable="true" title="Reference Document" type="java.lang.Object"/>
-                <Column editable="true" title="Record" type="java.lang.Object"/>
-                <Column editable="true" title="Prepaied By" type="java.lang.Object"/>
-                <Column editable="true" title="Approved By" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date of entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title=" Sr.No." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date of creation" type="java.lang.Object">
+                  <Data value="15/05/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Quality plan for " type="java.lang.Object">
+                  <Data value="Material"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Category/Process" type="java.lang.Object">
+                  <Data value="Metal"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Parameters" type="java.lang.Object">
+                  <Data value="Grade"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="" type="java.lang.Object">
+                  <Data value="Must Be"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="" type="java.lang.Object">
+                  <Data value="As Per Given Order"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Frequency" type="java.lang.Object">
+                  <Data value="For Every Lot"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Sample Size" type="java.lang.Object">
+                  <Data value="Per Lot Every Piece"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Test Instrument" type="java.lang.Object">
+                  <Data value="Visual"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Reference Document" type="java.lang.Object">
+                  <Data value="Test Certified From Supplier"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Record" type="java.lang.Object">
+                  <Data value="Test Certified From Supplier"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Prepaied By" type="java.lang.Object">
+                  <Data value="Sitarm NIshad"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Approved By" type="java.lang.Object">
+                  <Data value="Rajesh Gangurde"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date of entry" type="java.lang.Object">
+                  <Data value="15/05/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="02:15:20 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

@@ -86,7 +86,7 @@ public class Form_Daily_Production_Inprocess_Inspection_List extends javax.swing
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"12/10/2014", "Guide M/C 3x2", "GT745", "0", "5840", "1", "Total Lenght", "M2", "Jayash ", "1", "1", "0", "0", "0", null, "NA", null, "02:15:20 PM", "04:15:20 PM", "Visual", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "12/10/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

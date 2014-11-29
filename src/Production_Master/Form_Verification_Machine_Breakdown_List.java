@@ -86,13 +86,14 @@ public class Form_Verification_Machine_Breakdown_List extends javax.swing.JFrame
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"1", null, "M1", "Cylindrical Grinder", "Bearing Broken", "04/03/2014", "02:15:20 PM", "04/03/2014", "06:15:20 PM", "4 Hrs", "Oil Seale Changed", "Dilip Savkar", "04/03/2014", "Due To Increase In Pl ay Of Spindal", "We Changed the All Bolts", "Rajesh Nikale", "04/03/2014", "This Point Will Be Conmsider For Preventive Maintence", "Sitaram Nishad", "04/03/2014", "Completed", "04/03/2014", "This Shall Ber Ensured", "This Will Be Verified After 2 Year", "04/03/2014", "05:45:06 PM", "04/03/2014", "05:45:06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
                 "Sr.No", "Date Of Entry", "Machine  No.", "m/c Description", "Reason Of Breakdown", "From Date", "From Time", "To Date", "To Time", "Duration(Hrs.)", "Correction Taken", "C Taken Responsibility", "C Target Date", "Root Cause", "Planned Corrective Action", "Responsibility For C. Action", "Target Date", "Identified Preventive Action", "Responsibility", "Target Date", "Completion Status Of C.A", "Date of Verification", "Effectiveness Status of P.A", "Effectiveness CA", "Act. Date of Entry", "Act. Time of Entry", "Act.Date of Entry Verification", "Act.Time Of Verification", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);

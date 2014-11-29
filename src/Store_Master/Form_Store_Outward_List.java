@@ -135,7 +135,7 @@ public class Form_Store_Outward_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {"1", "04/03/2014", "10:15:20 PM", "Rajesh Kundra", "Manoj Bajpayee", "Steel", "Kg", "1", "S2", "04/03/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

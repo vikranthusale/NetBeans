@@ -205,28 +205,94 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="22" rowCount="2">
-                <Column editable="true" title="Supplier Name" type="java.lang.Object"/>
-                <Column editable="true" title="Address" type="java.lang.Object"/>
-                <Column editable="true" title="Supplier Representative" type="java.lang.Object"/>
-                <Column editable="true" title="Designation" type="java.lang.Object"/>
-                <Column editable="true" title="No.of Shifts" type="java.lang.Object"/>
-                <Column editable="true" title="Weekly Off" type="java.lang.Object"/>
-                <Column editable="true" title="Date" type="java.lang.Object"/>
-                <Column editable="true" title="1. Location" type="java.lang.Object"/>
-                <Column editable="true" title="2. Delivery Capability" type="java.lang.Object"/>
-                <Column editable="true" title="3. Commercial Capability" type="java.lang.Object"/>
-                <Column editable="true" title="4. Transportation Facility" type="java.lang.Object"/>
-                <Column editable="true" title="5. Present Customer range" type="java.lang.Object"/>
-                <Column editable="true" title="6.Authorisation of dealership" type="java.lang.Object"/>
-                <Column editable="true" title="Total" type="java.lang.Object"/>
-                <Column editable="true" title="percentage(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Supplier is" type="java.lang.Object"/>
-                <Column editable="true" title="Remark" type="java.lang.Object"/>
-                <Column editable="true" title="Evaluated By" type="java.lang.Object"/>
-                <Column editable="true" title="Approved By" type="java.lang.Object"/>
-                <Column editable="true" title="Actual  Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Supplier Name" type="java.lang.Object">
+                  <Data value="AK Tool"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Address" type="java.lang.Object">
+                  <Data value="Ambad"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Supplier Representative" type="java.lang.Object">
+                  <Data value="Amit"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Designation" type="java.lang.Object">
+                  <Data value="Manager"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="No.of Shifts" type="java.lang.Object">
+                  <Data value="General"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Weekly Off" type="java.lang.Object">
+                  <Data value="Saturday"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date" type="java.lang.Object">
+                  <Data value=" 15/05/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="1. Location" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="2. Delivery Capability" type="java.lang.Object">
+                  <Data value="5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="3. Commercial Capability" type="java.lang.Object">
+                  <Data value="8"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="4. Transportation Facility" type="java.lang.Object">
+                  <Data value="5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="5. Present Customer range" type="java.lang.Object">
+                  <Data value="6"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="6.Authorisation of dealership" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total" type="java.lang.Object">
+                  <Data value="54"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="percentage(%)" type="java.lang.Object">
+                  <Data value="91"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Supplier is" type="java.lang.Object">
+                  <Data value="Approved"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Remark" type="java.lang.Object">
+                  <Data value="OK"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Evaluated By" type="java.lang.Object">
+                  <Data value="Sitaram Nishad"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Approved By" type="java.lang.Object">
+                  <Data value="Pratik Patil"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual  Date Of Entry" type="java.lang.Object">
+                  <Data value=" 15/05/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="02:15:20 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

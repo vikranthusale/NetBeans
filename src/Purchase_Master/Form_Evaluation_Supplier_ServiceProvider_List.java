@@ -135,13 +135,14 @@ public class Form_Evaluation_Supplier_ServiceProvider_List extends javax.swing.J
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"AK Tool", "Ambad", "Amit", "Manager", "General", "Saturday", " 15/05/2014", "2", "5", "8", "5", "6", "54", "91", "Approved", "OK", "Sitaram Nishad", "Pratik Patil", " 15/05/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
                 "Supplier Name", "Address", "Supplier Representative", "Designation", "No.of Shifts", "Weekly Off", "Date", "1. Location", "2. Delivery Capability", "3. Commercial Capability", "4. Transportation Facility", "5. Present Customer range", "Total", "percentage(%)", "Supplier is", "Remark", "Evaluated By", "Approved By", "Actual  Date Of Entry", "Actual Time", "User"
             }
         ));
+        jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
         jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
         jScrollPane3.setViewportView(jTable2);

@@ -92,7 +92,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="List  Of Machine BreakDown"/>
+            <Property name="text" type="java.lang.String" value="List  Of Tool Maintenence Tool Check Point "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
@@ -132,14 +132,38 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="8" rowCount="2">
-                <Column editable="true" title="Sr.No" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Tool Name" type="java.lang.Object"/>
-                <Column editable="true" title="PM Check Point" type="java.lang.Object"/>
-                <Column editable="true" title="Start Date" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Sr.No" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of Entry" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Tool Name" type="java.lang.Object">
+                  <Data value="Center Drill"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="PM Check Point" type="java.lang.Object">
+                  <Data value="Balancing"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Start Date" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="02:15:20 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

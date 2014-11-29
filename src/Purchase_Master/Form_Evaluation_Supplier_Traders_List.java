@@ -139,7 +139,7 @@ public class Form_Evaluation_Supplier_Traders_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"AK Tool", "Ambad", "Amit", "Manager", "General", "Saturday", " 15/05/2014", "2", "5", "8", "5", "6", "2", "54", "91", "Approved", "OK", "Sitaram Nishad", "Pratik Patil", " 15/05/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
