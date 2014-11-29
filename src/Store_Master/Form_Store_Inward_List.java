@@ -135,7 +135,7 @@ public class Form_Store_Inward_List extends javax.swing.JFrame {
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"04/03/2014", "Bhavik Metals", "Dilip Savkar", "1520", "1", "Pipe", "2", "2", "2", "0", null, "0", null, "0", "2", "0", "0", "0", "0", "0", "04/03/2014", "05:45:06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

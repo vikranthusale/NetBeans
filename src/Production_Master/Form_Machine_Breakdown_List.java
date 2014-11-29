@@ -86,7 +86,7 @@ public class Form_Machine_Breakdown_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"1", null, "M1", "Cylindrical Grinder", "Bearing Broken", "04/03/2014", "02:15:20 PM", "04/03/2014", "06:15:20 PM", "4 Hrs", "Oil Seale Changed", "Dilip Savkar", "04/03/2014", "Due To Increase In Pl ay Of Spindal", "We Changed the All Bolts", "Rajesh Nikale", "04/03/2014", "This Point Will Be Conmsider For Preventive Maintence", "Sitaram Nishad", "04/03/2014", "Completed", "04/03/2014", "This Shall Ber Ensured", "This Will Be Verified After 2 Year", "04/03/2014", "05:45:06 PM", "04/03/2014", "05:45:06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

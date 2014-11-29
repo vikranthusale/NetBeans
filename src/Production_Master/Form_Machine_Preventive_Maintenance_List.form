@@ -201,20 +201,62 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="14" rowCount="2">
-                <Column editable="true" title="Sr No." type="java.lang.Object"/>
-                <Column editable="true" title="Machine Name" type="java.lang.Object"/>
-                <Column editable="true" title="Check Point" type="java.lang.Object"/>
-                <Column editable="true" title="Location" type="java.lang.Object"/>
-                <Column editable="true" title="Tools/Equipment To Be Used" type="java.lang.Object"/>
-                <Column editable="true" title="Start Date" type="java.lang.Object"/>
-                <Column editable="true" title="Frequency" type="java.lang.Object"/>
-                <Column editable="true" title="Due Date Of PM" type="java.lang.Object"/>
-                <Column editable="true" title="Delayed Days" type="java.lang.Object"/>
-                <Column editable="true" title="Reason Of Delayed" type="java.lang.Object"/>
-                <Column editable="true" title="Details" type="java.lang.Object"/>
-                <Column editable="true" title="Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time " type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="Sr No." type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Machine Name" type="java.lang.Object">
+                  <Data value="Cylindrical Grinder"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Check Point" type="java.lang.Object">
+                  <Data value="Oil Level Check"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Location" type="java.lang.Object">
+                  <Data value="Oil Tank"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Tools/Equipment To Be Used" type="java.lang.Object">
+                  <Data value="Visual"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Start Date" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Frequency" type="java.lang.Object">
+                  <Data value="Once in a Week"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Due Date Of PM" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Delayed Days" type="java.lang.Object">
+                  <Data value="50"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Reason Of Delayed" type="java.lang.Object">
+                  <Data value="You Have Not Entered"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Details" type="java.lang.Object">
+                  <Data value="Ok"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Date Of Entry" type="java.lang.Object">
+                  <Data value="04/03/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time " type="java.lang.Object">
+                  <Data value="05:45:06 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

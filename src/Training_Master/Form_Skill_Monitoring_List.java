@@ -131,7 +131,7 @@ public class Form_Skill_Monitoring_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {"Nitin More", "Managerial", "05 Very Good", "12/05/2014", "Excellent", "3", null, null, null, "12/05/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

@@ -201,36 +201,126 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="30" rowCount="2">
-                <Column editable="true" title="PO. No." type="java.lang.Object"/>
-                <Column editable="true" title="PO. Date" type="java.lang.Object"/>
-                <Column editable="true" title="Type of PO ." type="java.lang.Object"/>
-                <Column editable="true" title="Supplier Name" type="java.lang.Object"/>
-                <Column editable="true" title="Materia Description" type="java.lang.Object"/>
-                <Column editable="true" title="Technical Specification" type="java.lang.Object"/>
-                <Column editable="true" title="P.O.( Qty Nos.)" type="java.lang.Object"/>
-                <Column editable="true" title="Unit" type="java.lang.Object"/>
-                <Column editable="true" title="Price/Unit" type="java.lang.Object"/>
-                <Column editable="true" title="Order Amount(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Discount(Less)(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Discont Amount(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Sub Total Amount (Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Last Delivery Date" type="java.lang.Object"/>
-                <Column editable="true" title="Sale Tax(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Total Sale Tax(Rs)" type="java.lang.Object"/>
-                <Column editable="true" title="Excise Duty(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Total Excise Duty(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Fright" type="java.lang.Object"/>
-                <Column editable="true" title="Fright(%)" type="java.lang.Object"/>
-                <Column editable="true" title="Total Fright(Rs.)" type="java.lang.Object"/>
-                <Column editable="true" title="Grand Total" type="java.lang.Object"/>
-                <Column editable="true" title="Payment Terms" type="java.lang.Object"/>
-                <Column editable="true" title="Dispatched Through" type="java.lang.Object"/>
-                <Column editable="true" title="Special Instruction" type="java.lang.Object"/>
-                <Column editable="true" title="Prepared By" type="java.lang.Object"/>
-                <Column editable="true" title="Approved By" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object"/>
-                <Column editable="true" title="Actual Time" type="java.lang.Object"/>
-                <Column editable="true" title="User" type="java.lang.Object"/>
+                <Column editable="true" title="PO. No." type="java.lang.Object">
+                  <Data value="7"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="PO. Date" type="java.lang.Object">
+                  <Data value="12/10/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Type of PO ." type="java.lang.Object">
+                  <Data value="Verbal PO"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Supplier Name" type="java.lang.Object">
+                  <Data value="Bhavik Metal"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Materia Description" type="java.lang.Object">
+                  <Data value="Nylon"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Technical Specification" type="java.lang.Object">
+                  <Data value="As Per Drawing"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="P.O.( Qty Nos.)" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Unit" type="java.lang.Object">
+                  <Data value="No"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Price/Unit" type="java.lang.Object">
+                  <Data value="20.00"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Order Amount(Rs.)" type="java.lang.Object">
+                  <Data value="20"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Discount(Less)(%)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Discont Amount(Rs.)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Sub Total Amount (Rs.)" type="java.lang.Object">
+                  <Data value="20"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Last Delivery Date" type="java.lang.Object">
+                  <Data value="12/10/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Sale Tax(%)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total Sale Tax(Rs)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Excise Duty(%)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total Excise Duty(Rs.)" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Fright" type="java.lang.Object">
+                  <Data value="Not Applicable"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Fright(%)" type="java.lang.Object">
+                  <Data value="3.5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Total Fright(Rs.)" type="java.lang.Object">
+                  <Data value="208"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Grand Total" type="java.lang.Object">
+                  <Data value="6163"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Payment Terms" type="java.lang.Object">
+                  <Data value="30 Days Credit"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Dispatched Through" type="java.lang.Object">
+                  <Data value="By Hand"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Special Instruction" type="java.lang.Object">
+                  <Data value="Always Mention Above PC"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Prepared By" type="java.lang.Object">
+                  <Data value="Dilip Patil"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Approved By" type="java.lang.Object">
+                  <Data value="Dilip Patil"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Date Of Entry" type="java.lang.Object">
+                  <Data value="12/10/2014"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Actual Time" type="java.lang.Object">
+                  <Data value="02:15:20 PM"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="User" type="java.lang.Object">
+                  <Data value="Admin"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="autoResizeMode" type="int" value="0"/>

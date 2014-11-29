@@ -137,7 +137,7 @@ public class Form_Skill_Identification_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {"Nitin More", "Mangerial", "Excellent", "04/03/2014", "3", "3", null, null, null, "04/03/2014", "02:15:20 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

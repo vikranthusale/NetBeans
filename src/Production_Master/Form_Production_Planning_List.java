@@ -137,7 +137,7 @@ public class Form_Production_Planning_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {"5850", "15/05/2014", "Guide M/c 3x2", "ED145", "0", "ED145", "Koso Ind Pvt Ltd", "1542", "12154", "1", "1", "Job Work", "15/05/2014", "05:45:06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {

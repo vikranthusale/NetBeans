@@ -137,7 +137,7 @@ public class Form_Machine_Maintenance_Check_Points_List extends javax.swing.JFra
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {"1", "15/05/2014", "Cylindrical Grinder", "M1", "Oil Level Check", "Oil Tank", "Once in a Week", "Visual", "15/05/2014", "15/05/2014", " 05:45:06 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
