@@ -145,11 +145,11 @@ public class Form_Returnable_Challan_List extends javax.swing.JFrame {
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable2.setMinimumSize(new java.awt.Dimension(2147483647, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(1050, 400));
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
-            jTable2.getColumnModel().getColumn(0).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(0).setMinWidth(50);
             jTable2.getColumnModel().getColumn(1).setMinWidth(100);
             jTable2.getColumnModel().getColumn(2).setMinWidth(100);
             jTable2.getColumnModel().getColumn(3).setMinWidth(100);
@@ -175,7 +175,7 @@ public class Form_Returnable_Challan_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 493, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

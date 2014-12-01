@@ -143,9 +143,34 @@ public class Form_Store_Inward_List extends javax.swing.JFrame {
             }
         ));
         jTable3.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable3.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable3.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable3.setMinimumSize(new java.awt.Dimension(2147483647, 405));
+        jTable3.setPreferredSize(new java.awt.Dimension(3050, 400));
         jScrollPane4.setViewportView(jTable3);
+        if (jTable3.getColumnModel().getColumnCount() > 0) {
+            jTable3.getColumnModel().getColumn(0).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(1).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(2).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(3).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(4).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(5).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(6).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(7).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(8).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(12).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(13).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(14).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(15).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(16).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(17).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(18).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(19).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(20).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(21).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(22).setMinWidth(100);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -155,9 +180,12 @@ public class Form_Store_Inward_List extends javax.swing.JFrame {
                 .addGap(11, 11, 11)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(11, 11, 11))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -166,8 +194,9 @@ public class Form_Store_Inward_List extends javax.swing.JFrame {
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 455, Short.MAX_VALUE))
+                .addGap(7, 7, 7)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();

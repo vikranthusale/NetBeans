@@ -111,7 +111,7 @@ public class Form_Training_Planning_List extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(109, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(110, 110, 110)
                 .addComponent(jLabel2)
@@ -133,7 +133,7 @@ public class Form_Training_Planning_List extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPane5.setPreferredSize(new java.awt.Dimension(600, 402));
+        jScrollPane5.setPreferredSize(new java.awt.Dimension(1800, 402));
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -146,8 +146,21 @@ public class Form_Training_Planning_List extends javax.swing.JFrame {
         ));
         jTable3.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable3.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable3.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable3.setPreferredSize(new java.awt.Dimension(1350, 400));
         jScrollPane5.setViewportView(jTable3);
+        if (jTable3.getColumnModel().getColumnCount() > 0) {
+            jTable3.getColumnModel().getColumn(0).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(1).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(2).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(4).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(5).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(6).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(7).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(8).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable3.getColumnModel().getColumn(10).setMinWidth(100);
+            jTable3.getColumnModel().getColumn(11).setMinWidth(100);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -164,7 +177,7 @@ public class Form_Training_Planning_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 470, Short.MAX_VALUE))
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

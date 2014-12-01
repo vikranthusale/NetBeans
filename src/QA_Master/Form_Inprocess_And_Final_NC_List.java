@@ -144,9 +144,25 @@ public class Form_Inprocess_And_Final_NC_List extends javax.swing.JFrame {
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable2.setMinimumSize(new java.awt.Dimension(2147483647, 405));
+        jTable2.setPreferredSize(new java.awt.Dimension(1900, 400));
         jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(1).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(2).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(3).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(4).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(5).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(6).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(7).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(8).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(9).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(10).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(11).setMinWidth(170);
+            jTable2.getColumnModel().getColumn(12).setMinWidth(100);
+            jTable2.getColumnModel().getColumn(13).setMinWidth(100);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
