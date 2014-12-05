@@ -6,7 +6,14 @@
 
 package All_Master;
 
+import java.awt.Dimension;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import net.miginfocom.swing.MigLayout;
+
+  
+
 
 /**
  *
@@ -20,6 +27,12 @@ public class Form_Machine_List extends javax.swing.JFrame {
     public Form_Machine_List() {
         initComponents();
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+            
+              // use MigLayout
+       // jPanel2.setLayout( new MigLayout( ) );
+        //jPanel2.add(jLabel1);
+        jLabel1.setLayout(new MigLayout());
+        
     }
 
     /**
@@ -112,9 +125,9 @@ public class Form_Machine_List extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(41, 41, 41)
                 .addComponent(jLabel1)
-                .addGap(110, 110, 110)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
@@ -138,7 +151,7 @@ public class Form_Machine_List extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"CYLINDRICAL GRINDER-01", "M1", "TEKSOL", "10/2008", "250,600 MM", "28-10-2011", "NO", "28-11-2011", "12:23:00 PM", "Admin", null},
+                {"CYLINDRICAL GRINDER-01", "M1", "TEKSOL", "10/2008", "250,600 MM", "28-10-2011", "NO", "28-11-2011", "28-11-2011", "12:23:00 PM", "Admin"},
                 {null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
@@ -147,7 +160,7 @@ public class Form_Machine_List extends javax.swing.JFrame {
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jTable2.setMinimumSize(new java.awt.Dimension(600, 405));
-        jTable2.setPreferredSize(new java.awt.Dimension(1800, 400));
+        jTable2.setPreferredSize(new java.awt.Dimension(1300, 400));
         jTable2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
