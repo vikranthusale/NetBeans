@@ -10,7 +10,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import javax.swing.JFrame;
 import javax.swing.SwingConstants;
-
 /**
  *
  * @author Kamod
@@ -25,7 +24,9 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
          this.setExtendedState(JFrame.MAXIMIZED_BOTH);
        // this.setLayout(new GridBagLayout());
         // this.add(jPanel3, new GridBagConstraints());
-         jLabel1.setHorizontalAlignment(SwingConstants.TRAILING);  
+         jLabel1.setHorizontalAlignment(SwingConstants.TRAILING); 
+         
+         
 
     }
     
@@ -40,14 +41,14 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel2 = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        btn_add_new_bank_ac_list = new javax.swing.JButton();
+        btn_modify_bank_ac_list = new javax.swing.JButton();
+        btn_print_bank_ac_list = new javax.swing.JButton();
+        btn_exit_bank_ac_list = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        txt_total_records_bank_ac_list = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
 
@@ -56,21 +57,21 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(203, 252, 225));
         jPanel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jButton5.setText("Add  New");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btn_add_new_bank_ac_list.setText("Add  New");
+        btn_add_new_bank_ac_list.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btn_add_new_bank_ac_listActionPerformed(evt);
             }
         });
 
-        jButton6.setText("Modify");
+        btn_modify_bank_ac_list.setText("Modify");
 
-        jButton7.setText("Print");
+        btn_print_bank_ac_list.setText("Print");
 
-        jButton8.setText("Exit");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        btn_exit_bank_ac_list.setText("Exit");
+        btn_exit_bank_ac_list.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                btn_exit_bank_ac_listActionPerformed(evt);
             }
         });
 
@@ -80,13 +81,13 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_add_new_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_modify_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_print_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_exit_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(179, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -94,10 +95,10 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_add_new_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_modify_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_print_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_exit_bank_ac_list, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -111,9 +112,9 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Total  Records :");
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Total  Records ");
+        txt_total_records_bank_ac_list.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txt_total_records_bank_ac_list.setForeground(new java.awt.Color(255, 255, 255));
+        txt_total_records_bank_ac_list.setText("Total  Records ");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -125,7 +126,7 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
+                .addComponent(txt_total_records_bank_ac_list)
                 .addGap(22, 22, 22))
         );
         jPanel3Layout.setVerticalGroup(
@@ -135,7 +136,7 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                    .addComponent(txt_total_records_bank_ac_list))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
@@ -194,17 +195,17 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btn_add_new_bank_ac_listActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_add_new_bank_ac_listActionPerformed
         // TODO add your handling code here:
 
         new Form_Bank_Ac().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btn_add_new_bank_ac_listActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void btn_exit_bank_ac_listActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_exit_bank_ac_listActionPerformed
         // TODO add your handling code here:
         this.dispose();
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event_btn_exit_bank_ac_listActionPerformed
 
     /**
      * @param args the command line arguments
@@ -242,16 +243,16 @@ public class Form_Bank_Ac_List extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
+    private javax.swing.JButton btn_add_new_bank_ac_list;
+    private javax.swing.JButton btn_exit_bank_ac_list;
+    private javax.swing.JButton btn_modify_bank_ac_list;
+    private javax.swing.JButton btn_print_bank_ac_list;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTable jTable2;
+    private javax.swing.JLabel txt_total_records_bank_ac_list;
     // End of variables declaration//GEN-END:variables
 }
